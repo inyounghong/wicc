@@ -1,0 +1,316 @@
+/* Initializing */
+* {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: "Lato"; }
+
+a {
+  text-decoration: none; }
+
+.content ul, ol {
+  margin-left: 25px; }
+  .content ul li, ol li {
+    margin: 18px 0;
+    line-height: 1.4em; }
+
+/* Button */
+.button {
+  display: inline-block;
+  background: #7BB858;
+  color: #fff !important;
+  padding: 14px 20px;
+  font-size: 16px;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.button_wrap {
+  text-align: center; }
+
+/* Cols */
+.col2 {
+  display: inline-block;
+  width: 47%;
+  vertical-align: top;
+  margin-top: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.col2:first-of-type {
+  margin-right: 5%; }
+
+/* Navigation */
+.nav {
+  background: #39a39e;
+  z-index: 99;
+  text-align: right; }
+  .nav .menu {
+    max-width: 1150px;
+    padding: 0 50px;
+    margin: 0 auto; }
+  .nav li {
+    text-align: left;
+    color: #fff;
+    display: inline-block; }
+    .nav li a {
+      display: inline-block;
+      padding: 20px 15px;
+      color: #fff; }
+    .nav li:hover {
+      background: #E76A54;
+      color: #fff; }
+      .nav li:hover ul {
+        display: inline-block;
+        background: #000;
+        position: absolute; }
+      .nav li:hover a {
+        color: #fff; }
+
+.menu ul {
+  display: none;
+  background: #39a39e;
+  list-style-type: none; }
+  .menu ul li {
+    background: #E76A54;
+    width: 170px; }
+    .menu ul li:hover {
+      background: #E2B540; }
+    .menu ul li a {
+      color: #fff !important; }
+    .menu ul li a:hover {
+      color: #fff !important; }
+  .menu ul a {
+    color: #fff; }
+
+.nav .no-link {
+  cursor: default; }
+.nav .logo {
+  position: absolute;
+  width: 90px;
+  top: -15px; }
+  .nav .logo img {
+    max-width: 100%; }
+.nav .wicc {
+  position: absolute;
+  left: 140px;
+  font-weight: 700;
+  top: 20px;
+  color: #fff; }
+
+/* Cover Image */
+.cover {
+  background: url(../img/cover.jpg) center;
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+/* Main Content */
+.content {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 70px 50px;
+  font-size: 18px;
+  color: #111; }
+  .content.narrow {
+    max-width: 900px; }
+  .content a {
+    color: #39a39e; }
+  .content.center {
+    text-align: center; }
+
+.g {
+  background: #eee; }
+
+h1 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #333;
+  margin: 0px 0 25px;
+  text-align: center; }
+  h1.l {
+    text-align: left; }
+
+h2 {
+  color: #333;
+  font-size: 26px;
+  margin-bottom: 15px; }
+
+h3 {
+  margin: 20px 0 15px; }
+
+p {
+  margin: 20px 0;
+  line-height: 28px; }
+
+/* Video */
+.side {
+  display: inline-block;
+  width: 36%;
+  padding-left: 9%; }
+
+.video {
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%; }
+
+/* Events */
+.event {
+  display: inline-block;
+  width: 29.5%;
+  margin-right: 5%;
+  vertical-align: top; }
+  .event:nth-child(3n + 2) {
+    margin-right: 0; }
+  .event .info {
+    display: inline-block;
+    margin-left: 8%;
+    width: 67%; }
+    .event .info p {
+      margin: 0 0; }
+
+.date {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  background: #39a39e;
+  width: 80px;
+  height: 65px;
+  color: #fff;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: top; }
+  .date .day {
+    font-size: 28px;
+    margin-top: -3px; }
+  .date .month {
+    font-size: 14px;
+    text-transform: uppercase; }
+
+/* Goals */
+.goal {
+  display: inline-block;
+  width: 29.5%;
+  vertical-align: top;
+  margin-right: 5%;
+  text-align: center; }
+  .goal .image {
+    height: 130px; }
+  .goal:nth-child(3n + 2) {
+    margin-right: 0; }
+
+/* Resources */
+.opportunities td {
+  min-width: 200px; }
+
+/* Footer */
+.footer {
+  background: #333;
+  color: #ccc;
+  position: relative; }
+  .footer .content {
+    padding: 30px 0;
+    font-size: 16px; }
+  .footer a {
+    color: #ccc; }
+  .footer .social_media {
+    position: absolute;
+    right: 50px;
+    top: 30px; }
+
+/* ABOUT US PAGE */
+.profile {
+  margin: 30px 0; }
+  .profile img {
+    max-width: 100%; }
+  .profile .image_float {
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top; }
+    .profile .image_float .square_image {
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -ms-border-radius: 100%;
+      border-radius: 100%;
+      border: 8px solid #7BB858;
+      max-width: 150px;
+      max-height: 150px;
+      overflow: hidden;
+      margin: 0 auto; }
+      .profile .image_float .square_image.s2 {
+        border-color: #E2B540; }
+  .profile .info {
+    width: 60%;
+    margin-left: 5%;
+    display: inline-block; }
+    .profile .info p {
+      font-size: 16px;
+      line-height: 1.5em; }
+  .profile .name {
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center; }
+  .profile .position {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px; }
+  .profile .class {
+    text-align: center;
+    font-size: 15px; }
+
+/* Gallery specific */
+.album {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  clear: both;
+  width: 500px;
+  margin-right: -4px; }
+  .album:hover .description {
+    padding-top: 100px; }
+  .album .image_box {
+    float: left;
+    width: 250px;
+    height: 250px;
+    overflow: hidden; }
+  .album .description {
+    width: 250px;
+    padding-top: 110px;
+    height: 250px;
+    color: #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    text-align: center;
+    background: #39a39e;
+    display: inline-block;
+    transition: all 0.2s; }
+    .album .description .album_title {
+      padding: 0 20px; }
+
+.album:nth-of-type(4n + 3) .image_box, .album:nth-of-type(4n + 4) .image_box {
+  float: right; }
+.album:nth-of-type(4n + 3) .description, .album:nth-of-type(4n + 4) .description {
+  float: left; }
+
+.album:nth-of-type(4n) .description {
+  background: #7BB858; }
+
+.album:nth-of-type(4n + 1) .description {
+  background: #E2B540; }
+
+.album:nth-of-type(4n + 2) .description {
+  background: #E76A54; }
+
+/*# sourceMappingURL=main.css.map */
