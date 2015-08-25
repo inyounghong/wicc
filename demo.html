@@ -1,11 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
+<head>
+  <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Women in Computing at Cornell</title>
     
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsiveslides.css" />
     <link rel="shortcut icon" href="img/icon.png" />
     <link rel="shortcut icon" href="http://wicc.acm.org/img/wicc-logo.jpg">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -13,55 +14,46 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,900,800' rel='stylesheet' type='text/css'>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="js/responsiveslides.min.js"></script>
-    <script>
-      // Cover slider function
-      $(function () {
-        $(".rslides").responsiveSlides({
-          auto: true,
-          timeout: 3000,  
-          pager: true,
-          speed: 800,
-        });
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+
+
+      // Slideshow 2
+      $("#slider2").responsiveSlides({
+        auto: true,
+        timeout: 400,  
+        pager: true,
+        speed: 300,
+        maxwidth: 540
       });
-    </script>
-  </head>
-  <body>
+
+    });
+  </script>
+</head>
+<body>
+  <div id="wrapper">
     <?php include "includes/nav.html" ?>
     
+    <!-- Cover Image -->
     <div class="cover">
-      <ul class="rslides" id="slider2">
-          <li>
-            <img src="img/unpanel.jpg">
-            <div class="caption">Welcome Social and Unpanel 
-              <div class="desc">Spring 2015</div>
-            </div>
-          </li>
-          <li>
-            <img src="img/scavengerhunt.jpg">
-            <div class="caption r">WICC Scavenger Hunt
-              <div class="desc">Spring 2015</div>
-            </div>
-          </li>
-          <li>
-            <img src="img/cover.jpg">
-            <div class="caption">LearnCS-H Open House
-              <div class="desc">Fall 2014</div>
-            </div>
-          </li>
-          <li>
-            <img src="img/opensourceworkshop.jpg">
-            <div class="caption">Open Source Workshop
-              <div class="desc">Fall 2014</div>
-            </div>
-          </li>
 
-      </ul>
     </div>
 
 
 
 
-    <br>
+
+    <!-- Slideshow 2 -->
+    <ul class="rslides" id="slider2">
+      <li><a href="#"><img src="images/1.jpg" alt=""></a></li>
+      <li><a href="#"><img src="images/2.jpg" alt=""></a></li>
+      <li><a href="#"><img src="images/3.jpg" alt=""></a></li>
+    </ul>
+
+
+  <br>
     <!-- Start Content -->
     <div class="content">
       
@@ -136,3 +128,4 @@
   </div>
   </body>
 </html>
+

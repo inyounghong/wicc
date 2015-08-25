@@ -1,4 +1,16 @@
 /* Initializing */
+.b {
+  background: #39a39e; }
+
+.r {
+  background: #EA6750; }
+
+.y {
+  background: #E2B540; }
+
+.g {
+  background: #7BB858; }
+
 * {
   border: none;
   background: none;
@@ -16,10 +28,83 @@ a {
     margin: 18px 0;
     line-height: 1.4em; }
 
+/* Cover Slider */
+.cover {
+  height: 500px;
+  overflow: hidden;
+  position: relative; }
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0; }
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left; }
+  .rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0; }
+
+.caption {
+  position: absolute;
+  right: 50px;
+  top: 380px;
+  z-index: 99;
+  padding: 20px 25px;
+  color: #fff;
+  background: #EA6750;
+  font-size: 18px;
+  font-weight: 600; }
+  .caption .desc {
+    text-transform: uppercase;
+    font-size: 15px;
+    opacity: 0.8;
+    margin-top: 5px;
+    text-align: right; }
+
+.rslides_tabs {
+  position: absolute;
+  z-index: 99;
+  bottom: 20px;
+  width: 100%;
+  text-align: center; }
+  .rslides_tabs li {
+    display: inline-block; }
+    .rslides_tabs li.rslides_here a {
+      background: #fff; }
+    .rslides_tabs li a {
+      border: 2px solid #fff;
+      display: block;
+      width: 14px;
+      height: 14px;
+      font-size: 0px;
+      margin: 0 10px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -ms-border-radius: 100%;
+      border-radius: 100%;
+      transition: all 0.2s; }
+      .rslides_tabs li a:hover {
+        background: #fff; }
+
 /* Button */
 .button {
   display: inline-block;
-  background: #7BB858;
+  background: #EA6750;
   color: #fff !important;
   padding: 14px 20px;
   font-size: 16px;
@@ -62,7 +147,7 @@ a {
       padding: 20px 15px;
       color: #fff; }
     .nav li:hover {
-      background: #E76A54;
+      background: #EA6750;
       color: #fff; }
       .nav li:hover ul {
         display: inline-block;
@@ -76,7 +161,7 @@ a {
   background: #39a39e;
   list-style-type: none; }
   .menu ul li {
-    background: #E76A54;
+    background: #EA6750;
     width: 170px; }
     .menu ul li:hover {
       background: #E2B540; }
@@ -101,14 +186,6 @@ a {
   font-weight: 700;
   top: 20px;
   color: #fff; }
-
-/* Cover Image */
-.cover {
-  background: url(../img/cover.jpg) center;
-  height: 500px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; }
 
 /* Main Content */
 .content {
@@ -311,6 +388,6 @@ p {
   background: #E2B540; }
 
 .album:nth-of-type(4n + 2) .description {
-  background: #E76A54; }
+  background: #EA6750; }
 
 /*# sourceMappingURL=main.css.map */
