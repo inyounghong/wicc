@@ -6,19 +6,22 @@
     <title>Women in Computing at Cornell</title>
     
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
     <link rel="shortcut icon" href="img/icon.png" />
     <link rel="shortcut icon" href="http://wicc.acm.org/img/wicc-logo.jpg">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,900,800' rel='stylesheet' type='text/css'>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="js/responsiveslides.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
     <script>
       // Cover slider function
       $(function () {
         $(".rslides").responsiveSlides({
           auto: true,
-          timeout: 3000,  
+          timeout: 4000,  
           pager: true,
           speed: 800,
         });

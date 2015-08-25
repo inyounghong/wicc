@@ -62,7 +62,7 @@ a {
 .caption {
   position: absolute;
   right: 50px;
-  top: 380px;
+  top: 370px;
   z-index: 99;
   padding: 20px 25px;
   color: #fff;
@@ -79,7 +79,7 @@ a {
 .rslides_tabs {
   position: absolute;
   z-index: 99;
-  bottom: 20px;
+  bottom: 30px;
   width: 100%;
   text-align: center; }
   .rslides_tabs li {
@@ -89,8 +89,8 @@ a {
     .rslides_tabs li a {
       border: 2px solid #fff;
       display: block;
-      width: 14px;
-      height: 14px;
+      width: 12px;
+      height: 12px;
       font-size: 0px;
       margin: 0 10px;
       -webkit-border-radius: 100%;
@@ -130,62 +130,48 @@ a {
   margin-right: 5%; }
 
 /* Navigation */
-.nav {
-  background: #39a39e;
-  z-index: 99;
-  text-align: right; }
-  .nav .menu {
-    max-width: 1150px;
-    padding: 0 50px;
-    margin: 0 auto; }
-  .nav li {
-    text-align: left;
+.navbar {
+  background: #39a39e !important;
+  border-radius: 0 !important;
+  border: none !important;
+  margin-bottom: 0 !important; }
+  .navbar li:hover {
+    background: #EA6750; }
+  .navbar a {
+    color: #fff !important; }
+  .navbar .open a {
+    background: #EA6750 !important; }
+  .navbar .dropdown-menu {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    background: #EA6750; }
+    .navbar .dropdown-menu li {
+      width: 100%; }
+      .navbar .dropdown-menu li a {
+        padding: 15px 15px;
+        background: #EA6750; }
+        .navbar .dropdown-menu li a:hover {
+          background: #E2B540 !important; }
+  .navbar .icon-bar {
+    background: #fff !important;
+    padding: 1px; }
+  .navbar .no-link {
+    cursor: default; }
+  .navbar .logo {
+    position: absolute;
+    width: 77px;
+    top: -15px; }
+    .navbar .logo img {
+      max-width: 100%; }
+  .navbar .wicc {
+    position: absolute;
+    left: 100px;
+    font-weight: 700;
+    font-size: 15px;
+    top: 15px;
     color: #fff;
-    display: inline-block; }
-    .nav li a {
-      display: inline-block;
-      padding: 20px 15px;
-      color: #fff; }
-    .nav li:hover {
-      background: #EA6750;
-      color: #fff; }
-      .nav li:hover ul {
-        display: inline-block;
-        background: #000;
-        position: absolute; }
-      .nav li:hover a {
-        color: #fff; }
-
-.menu ul {
-  display: none;
-  background: #39a39e;
-  list-style-type: none; }
-  .menu ul li {
-    background: #EA6750;
-    width: 170px; }
-    .menu ul li:hover {
-      background: #E2B540; }
-    .menu ul li a {
-      color: #fff !important; }
-    .menu ul li a:hover {
-      color: #fff !important; }
-  .menu ul a {
-    color: #fff; }
-
-.nav .no-link {
-  cursor: default; }
-.nav .logo {
-  position: absolute;
-  width: 90px;
-  top: -15px; }
-  .nav .logo img {
-    max-width: 100%; }
-.nav .wicc {
-  position: absolute;
-  left: 140px;
-  font-weight: 700;
-  top: 20px;
-  color: #fff; }
+    width: 250px; }
 
 /* Main Content */
 .content {

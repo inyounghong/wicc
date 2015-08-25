@@ -83,7 +83,7 @@ a
 .caption
     position: absolute
     right: 50px
-    top: 380px
+    top: 370px
     z-index: 99
     padding: 20px 25px
     color: #fff
@@ -101,7 +101,7 @@ a
 .rslides_tabs
     position: absolute
     z-index: 99
-    bottom: 20px
+    bottom: 30px
     width: 100%
     text-align: center
     
@@ -114,8 +114,8 @@ a
         a
             border: 2px solid #fff
             display: block
-            width: 14px
-            height: 14px
+            width: 12px
+            height: 12px
             font-size: 0px
             margin: 0 10px
             +border-radius(100%)
@@ -153,76 +153,57 @@ a
 
 /* Navigation */
 
-.nav
-    background: $blue
-    z-index: 99
-    text-align: right
+.navbar
+    background: $blue!important
+    border-radius: 0!important
+    border: none!important
+    margin-bottom: 0!important
 
-    .menu
-        max-width: 1150px
-        padding: 0 50px
-        margin: 0 auto
-
-
-    li
-        text-align: left
-        color: #fff
-        display: inline-block
-
-        a
-            display: inline-block
-            padding: 20px 15px
-            color: #fff
-
-        &:hover
-            background: $red
-            color: #fff
-
-            ul  
-                display: inline-block
-                background: #000
-                position: absolute
-
-            a
-                color: #fff
-
-.menu ul
-    display: none
-    background: $blue
-    list-style-type: none
-
-    li
+    li:hover
         background: $red
-        width: 170px
-
-        &:hover
-            background: $yellow
-
-        a
-            color: #fff!important
-
-        a:hover
-            color: #fff!important
 
     a
-        color: #fff
+        color: #fff!important
 
-.nav
+    .open a
+        background: $red!important
+
+    .dropdown-menu
+        border: none
+        box-shadow: none
+        padding: 0
+        background: $red
+
+        li 
+            width: 100%
+            
+            a
+                padding: 15px 15px
+                background: $red
+
+                &:hover
+                    background: $yellow!important
+
+    .icon-bar
+        background: #fff!important
+        padding: 1px
     .no-link
         cursor: default
 
     .logo
         position: absolute
-        width: 90px
+        width: 77px
         top: -15px
         img
             max-width: 100%
     .wicc
         position: absolute
-        left: 140px
+        left: 100px
         font-weight: 700
-        top: 20px
+        font-size: 15px
+        top: 15px
         color: #fff
+        width: 250px
 
 
 
