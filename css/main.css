@@ -12,7 +12,8 @@
   background: #7BB858; }
 
 .c {
-  text-align: center; }
+  text-align: center;
+  display: block; }
 
 * {
   border: none;
@@ -120,6 +121,10 @@ a, a:hover, a:focus {
   text-align: center; }
 
 /* Cols */
+.row {
+  margin-bottom: 40px;
+  margin-top: 40px; }
+
 .col-sm-6.left {
   padding-right: 30px; }
 
@@ -189,6 +194,8 @@ a, a:hover, a:focus {
   padding-bottom: 80px;
   font-size: 18px;
   color: #111; }
+  .container a {
+    color: #39a39e !important; }
 
 .narrow {
   max-width: 900px;

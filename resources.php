@@ -18,74 +18,61 @@
   <body>
     <?php include 'includes/nav.html' ?>
     
+    <div class="container">
+      <div class="narrow">
+        <h1>Resources</h1>
 
-    <div class="content narrow">
-      <h1>Resources</h1>
-
-      <table class="opportunities">
-          
-          
-            <!-- Udemy -->
-            <tr>
-                <td><a href="http://www.udemy.com/"><img src="img/udemy.jpg" width="120"></a></td>
-                <td><h1><a href="http://www.udemy.com/">Udemy</a></h1>
-          <p>"At Udemy, our mission is to help anyone learn anything. As part of our Corporate Social Responsibility Initiative, we want to help WICC members learn all they can for FREE. We have partnered with your WICC executive board at Cornell to bring you the most in-demand tools in programming languages, web, and mobile development. All of these tutorials come with in-depth videos, exercises, and real-life examples for all skill levels."</p>
-        <center>
-        <a href="https://www.udemy.com/courses/Development/Web-Development/?p=1&price=price-free">Web Development Courses</a><br>
-        <a href="https://www.udemy.com/courses/Development/Programming-Languages/?p=1&price=price-free">Programming Languages Courses</a><br>
-        <a href="https://www.udemy.com/courses/Development/Mobile-Apps/?p=1&price=price-free&">Mobile App development Courses</a>
-        </center>
-              </td>
-            </tr>
-          <br><br>
-          
-            <!--CodeCademy-->
-            <tr>
-                <td><a href="http://www.codecademy.com/"><img src="https://pbs.twimg.com/profile_images/499697083398381568/ih2vOpDt.png" height="150" width="150"></a></td>
-                <td><h1><a href="http://www.codecademy.com/">CodeCademy</a></h1>
+        <div class="row">
+          <div class="col-sm-6">
+            <a class="c" href="http://www.udemy.com/"><img src="img/udemy.jpg" width="90"></a>
+            <h1><a href="http://www.udemy.com/">Udemy</a></h1>
+            <p>"At Udemy, our mission is to help anyone learn anything. As part of our Corporate Social Responsibility Initiative, we want to help WICC members learn all they can for FREE. We have partnered with your WICC executive board at Cornell to bring you the most in-demand tools in programming languages, web, and mobile development. All of these tutorials come with in-depth videos, exercises, and real-life examples for all skill levels."</p>
+            <center>
+            <a href="https://www.udemy.com/courses/Development/Web-Development/?p=1&price=price-free">Web Development Courses</a><br>
+            <a href="https://www.udemy.com/courses/Development/Programming-Languages/?p=1&price=price-free">Programming Languages Courses</a><br>
+            <a href="https://www.udemy.com/courses/Development/Mobile-Apps/?p=1&price=price-free&">Mobile App development Courses</a>
+            </center>
+          </div>
+          <div class="col-sm-6">
+            <a class="c" href="http://www.codecademy.com/"><img src="https://pbs.twimg.com/profile_images/499697083398381568/ih2vOpDt.png" height="150" width="150"></a>
+            <h1><a href="http://www.codecademy.com/">CodeCademy</a></h1>
           <p>Learn to code interactively, for free! Codecademy hosts interactive courses on how to program in seven different programming languages: HTML, CSS, JavaScript, jQuery, Ruby PHP, and Python. </p>
-                </td>
-            </tr>
-          
-          
-          <!--Udacity-->
-          <tr>
-                <td><a href="http://www.udacity.com/"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Udacity_Logo.svg/2000px-Udacity_Logo.svg.png" width="140" ></a></td>
-                <td><h1><a href="http://www.udacity.com/">Udacity</a></h1>
+            </center>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <a class="c" href="http://www.udacity.com/"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Udacity_Logo.svg/2000px-Udacity_Logo.svg.png" width="100" ></a>
+            <h1><a href="http://www.udacity.com/">Udacity</a></h1>
           <p>Udacity provides project-based online courses and credentials in programming that fit into your lifestyle. There are many free classes that range from teaching you the very basics of programming to more advanced courses that help you make sense of data. You can also earn a nanodegree to advance your career in programs such as full-stack development and iOS development.</p>
-                </td>
-            </tr>
-        
-            
-          
-          <!--Coursera-->
-          <tr>
-            <td><a href="https://www.coursera.org/"><img src="img/coursera.jpg" width="150"></a></td>
-            <td>
-              <h1><a href="https://www.coursera.org/">Coursera</a></h1>
+            </center>
+          </div>
+
+        <div class="col-sm-6">
+            <a class="c" href="https://www.coursera.org/"><img src="img/coursera.jpg" width="150"></a>
+            <h1><a href="https://www.coursera.org/">Coursera</a></h1>
               <p>Education is changing, with great educators from around the world increasingly putting their amazing courses online. We believe we are in the early days of a revolution that will not only increase access to great education, but also transform the way people learn. SlideRule is our way of contributing to the movement. We're bridging the skills gap through affordable, high-quality online education. Our vision is to create a credible alternative to traditional education for the new economy.</p>
-            </td>
-          </tr>
+            </center>
+          </div>
+        </div>
 
-          <tr>
-            <td><a href="https://www.mysliderule.com/"><img src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/270431-8e9451e1ad3372c78ccf005fa4b5f6c1-medium_jpg.jpg" width="150"></a></td>
-            <td>
-              <h1><a href="https://www.mysliderule.com/">SlideRule</a></h1>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <a class="c" href="https://www.mysliderule.com/"><img src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/270431-8e9451e1ad3372c78ccf005fa4b5f6c1-medium_jpg.jpg" width="150"></a>
+            <h1><a href="https://www.mysliderule.com/">SlideRule</a></h1>
               <p>Coursera works with universities to offer masive open online coursers (MOOCs) for free. Take courses in artificial intelligence, data science, theoretical computer science, interface design, software engineering, computer systems, security, and many more! There is an extra option to earn verified certificate with official recognition for your achievements.</p>
-            </td>
-          </tr>
+            </center>
+          </div>
 
-          <tr>
-            <td><a href="https://www.edx.org/"><img src="http://futureedu.edx.org/assets/images/edx.png" width="150"></a></td>
-            <td>
-              <h1><a href="https://www.edx.org/">edX</a></h1>
+          <div class="col-sm-6">
+            <a class="c" href="https://www.edx.org/"><img src="http://futureedu.edx.org/assets/images/edx.png" width="150"></a>
+            <h1><a href="https://www.edx.org/">edX</a></h1>
               <p>At edX, we believe in the highest quality education, both online and in the classroom. EdX was created for students and institutions that seek to transform themselves through cutting-edge technologies, innovative pedagogy, and rigorous courses.</p>
-            </td>
-          </tr>
-
-        
-      </table>
-
+            </center>
+          </div>
+        </div>
 
       </div>
        
