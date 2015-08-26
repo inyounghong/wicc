@@ -19,19 +19,19 @@
   </head>
   <body>
     <?php include "includes/nav.html" ?>
+    <div class="container">
+      <div class="narrow">
+        <h1>About Us</h1>
 
-    <div class="content narrow">
-      <h1>About Us</h1>
+        <p class="large">WICC was founded in March 2013 to bring together women in computing fields at Cornell, expand their opportunities and successes, provide a support network of women, and empower them to encourage younger women to consider computing fields. We hope to create a budding community for women and promote interaction on academic, social, and professional issues. By making women in computing fields visible, providing role models and dispelling stereotypes, WICC fosters a support network to empower women and encourage young girls to discover their love for computing.</p>
+        <br>
+        <center><a href="http://wicc.acm.org/docs/wiccyearinreview13_14.pdf">Year in Review 2013-2014</a></center>
+        <br><br>
 
-      <p class="large">WICC was founded in March 2013 to bring together women in computing fields at Cornell, expand their opportunities and successes, provide a support network of women, and empower them to encourage younger women to consider computing fields. We hope to create a budding community for women and promote interaction on academic, social, and professional issues. By making women in computing fields visible, providing role models and dispelling stereotypes, WICC fosters a support network to empower women and encourage young girls to discover their love for computing.</p>
-      <br>
-      <center><a href="http://wicc.acm.org/docs/wiccyearinreview13_14.pdf">Year in Review 2013-2014</a></center>
-      <br><br>
-
-      <h1>E-board Members</h1>
-      <br>
+        <h1>E-board Members</h1>
+        <br>
     
-<div class="section profile">
+      <div class="section profile">
         <div class="image_float">
           <div class="square_image">
             <img src="img/board/AgiCsaki.jpg">
@@ -196,6 +196,7 @@
         </div>
       </div>
     </div> 
+  </div>
 
       <?php include 'includes/footer.html' ?>
 

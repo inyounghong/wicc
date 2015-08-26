@@ -19,27 +19,33 @@
   <body>
     <?php include "includes/nav.html" ?>
 
-    <div class="content narrow">
+    <div class="container">
+      <div class="narrow">
         <h1>Join WICC</h1>
+          <div class="row">
+            <div class="col-sm-6">
+              <p><b>Social Media:</b></p>
+              <p><a href="https://www.facebook.com/CornellWomenInComputing">Facebook</a>:  'Like' us on Facebook!</p>
+              <p><a href="https://www.facebook.com/groups/467594836608391/">Group</a>: We invite you to join our Facebook group, where we're stimulating a dialogue about topics relating to women in technology.</p><br>
+            </div>
+            <div class="col-sm-6">
+              <p><b>Email:</b> <a href="mailto:wicc@cornell.edu">wicc@cornell.edu</a></p> 
+              <br>
+              Want to get involved in WICC? Sign up to our listserv to receive notifications about all of our events:<br>
+              Send a <u>blank</u> e-mail to <a href="mailto:wicc-l-request@cornell.edu">wicc-l-request@cornell.edu</a> with the subject <b>join</b> .
 
-            <div class="section">
-             <p><b>Social Media:</b></p>
-             <p><a href="https://www.facebook.com/CornellWomenInComputing">Facebook</a>:  'Like' us on Facebook!</p>
-            <p><a href="https://www.facebook.com/groups/467594836608391/">Group</a>: We invite you to join our Facebook group, where we're stimulating a dialogue about topics relating to women in technology.</p><br>
-            <p><b>Email:</b> <a href="mailto:wicc@cornell.edu">wicc@cornell.edu</a></p> 
-            <br>
-            Want to get involved in WICC? Sign up to our listserv to receive notifications about all of our events:<br>
-            Send a <u>blank</u> e-mail to <a href="mailto:wicc-l-request@cornell.edu">wicc-l-request@cornell.edu</a> with the subject <b>join</b> .
-                    <br><br>
-
-
-               </div>
+            </div>
+          </div>
+        </div>
         
     
       
+      </div>
     </div>
 
-      <?php include 'includes/footer.html' ?>
+    <br><br><br><br><br><br><br><br>
+
+    <?php include 'includes/footer.html' ?>
 
     <script src="js/jquery.js"></script>
 

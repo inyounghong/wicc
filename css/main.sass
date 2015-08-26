@@ -14,6 +14,9 @@ $green: #7BB858
 .g
     background: $green
 
+.c
+    text-align: center
+
 
 =border-radius($radius)
     -webkit-border-radius: $radius
@@ -34,8 +37,9 @@ $green: #7BB858
     position: relative
     font-family: "Lato"
 
-a
-    text-decoration: none
+a, a:hover, a:focus
+    text-decoration: none!important
+    
 
 .content ul, ol
     margin-left: 25px
@@ -140,6 +144,12 @@ a
 
 /* Cols */
 
+.col-sm-6.left
+    padding-right: 30px
+
+.col-sm-6.right
+    padding-left: 30px
+
 .col2
     display: inline-block
     width: 47%
@@ -204,20 +214,28 @@ a
         top: 15px
         color: #fff
         width: 250px
-
+        z-index: 99
 
 
 /* Main Content */
 
+.container
+    padding-top: 50px
+    padding-bottom: 80px
+    font-size: 18px
+    color: #111
+.narrow
+    max-width: 900px
+    margin: 0 auto
+
 .content
     max-width: 1150px
     margin: 0 auto
-    padding: 70px 50px
+    padding: 50px 50px
     font-size: 18px
     color: #111
 
-    &.narrow
-        max-width: 900px
+
 
     a
         color: $blue
@@ -232,7 +250,7 @@ h1
     font-weight: 600
     font-size: 36px
     color: #333
-    margin: 0px 0 25px
+    margin: 0px 0 25px!important
     text-align: center
 
     &.l
@@ -252,16 +270,8 @@ p
 
 /* Video */
 
-.side
-    display: inline-block
-    width: 36%
-    padding-left: 9%
-
 .video
-    text-align: center
-    display: inline-block
-    vertical-align: top
-    width: 50%
+    width: 90%
 
 /* Events */
 
@@ -308,19 +318,14 @@ p
 
 /* Goals */
 
-.goal
-    display: inline-block
-    width: 29.5%
-    vertical-align: top
-    margin-right: 5%
-    text-align: center
+.goals
+    margin: 15px 0
 
     .image
         height: 130px
+        position: relative
+        bottom: -15px
 
-
-    &:nth-child(3n + 2)
-        margin-right: 0
 
 /* Resources */
 
@@ -371,7 +376,7 @@ p
             margin: 0 auto
 
             &.s2
-                border-color: $yellow
+                border-color: $red
 
     .info
         width: 60%

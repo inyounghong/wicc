@@ -62,20 +62,21 @@
     </div>
 
 
-
-
     <br>
     <!-- Start Content -->
-    <div class="content">
-      
+    <div class="container">
 
-      <div class="video">
-        <iframe width="100%" height="400" src="//www.youtube.com/embed/5ctRcy_kL1Q?rel=0" frameborder="0" allowfullscreen></iframe>
-      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="video">
+            <iframe width="100%" height="400" src="//www.youtube.com/embed/5ctRcy_kL1Q?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
 
-      <div class="side">
-        <h1 class="l">Mission</h1>
-        <p>Our goal is to bring together the women in computing at Cornell. We seek not only to encourage prospective women and to expand their opportunities, but also to provide support to existing women in computing fields so that they can carve their own paths in CS.</p>
+        <div class="col-sm-6">
+          <h1 class="l">Mission</h1>
+          <p>Our goal is to bring together the women in computing at Cornell. We seek not only to encourage prospective women and to expand their opportunities, but also to provide support to existing women in computing fields so that they can carve their own paths in CS.</p>
+        </div>
       </div>
     </div>
 
@@ -110,23 +111,23 @@
       </div>
     </div>
 
-    <div class="content">
+    <div class="container">
 
       <h1>Our Goals</h1>
       <br>
-      <div class="goal">
+      <div class="col-sm-4 c goals">
         <div class="image"><img src="img/career2.jpg"></div>
         <h2>Career Development</h2>
         <p>Expanding opportunities and providing career support by publicizing opportunities for women, hosting alumni women panels, tech talks and networking events with companies.</p>
       </div>
 
-      <div class="goal">
+      <div class="col-sm-4 c goals">
         <div class="image"><img src="img/outreach2.jpg"></div>
         <h2>Outreach</h2>
         <p>Extending our influence by inspiring young girls to pursue computing fields, supporting scholarships for the Grace Hopper Conference, and running weekly Computer Science workshops (LearnCS) held at Cornell for high school and middle school girls in the Ithaca area.</p>
       </div>
 
-      <div class="goal">
+      <div class="col-sm-4 c goals">
         <div class="image"><img src="img/community2.jpg"></div>
         <h2>Community Building</h2>
         <p>Building a sense of community among women in computing fields at Cornell through social networking events, informative and inspirational internship panels, and a mentorship program.</p>
