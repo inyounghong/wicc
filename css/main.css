@@ -32,6 +32,59 @@ a, a:hover, a:focus {
     margin: 18px 0;
     line-height: 1.4em; }
 
+/* Main Content */
+.container {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  font-size: 18px;
+  color: #111; }
+  .container a {
+    color: #39a39e; }
+
+.narrow {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 5%; }
+
+.content {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 50px 50px;
+  font-size: 18px;
+  color: #111; }
+  .content a {
+    color: #39a39e; }
+  .content.center {
+    text-align: center; }
+
+.g {
+  background: #eee; }
+
+h1 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #333;
+  margin: 0px 0 25px !important;
+  text-align: center; }
+  h1.l {
+    text-align: left; }
+
+h2 {
+  color: #333;
+  font-size: 26px;
+  margin-bottom: 15px; }
+
+h3 {
+  margin: 20px 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Open Sans;
+  font-size: 20px; }
+
+p {
+  margin: 20px 0;
+  line-height: 28px; }
+
 /* Cover Slider */
 .cover {
   height: 500px;
@@ -188,54 +241,6 @@ a, a:hover, a:focus {
     width: 250px;
     z-index: 99; }
 
-/* Main Content */
-.container {
-  padding-top: 50px;
-  padding-bottom: 80px;
-  font-size: 18px;
-  color: #111; }
-  .container a {
-    color: #39a39e !important; }
-
-.narrow {
-  max-width: 900px;
-  margin: 0 auto; }
-
-.content {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 50px 50px;
-  font-size: 18px;
-  color: #111; }
-  .content a {
-    color: #39a39e; }
-  .content.center {
-    text-align: center; }
-
-.g {
-  background: #eee; }
-
-h1 {
-  font-weight: 600;
-  font-size: 36px;
-  color: #333;
-  margin: 0px 0 25px !important;
-  text-align: center; }
-  h1.l {
-    text-align: left; }
-
-h2 {
-  color: #333;
-  font-size: 26px;
-  margin-bottom: 15px; }
-
-h3 {
-  margin: 20px 0 15px; }
-
-p {
-  margin: 20px 0;
-  line-height: 28px; }
-
 /* Video */
 .video {
   width: 90%; }
@@ -280,9 +285,12 @@ p {
 .goals {
   margin: 15px 0; }
   .goals .image {
-    height: 130px;
+    height: 110px;
     position: relative;
-    bottom: -15px; }
+    bottom: 0; }
+    .goals .image img {
+      padding-bottom: 10px;
+      max-height: 100%; }
 
 /* Resources */
 .opportunities td {
@@ -304,45 +312,38 @@ p {
     top: 30px; }
 
 /* ABOUT US PAGE */
-.profile {
-  margin: 30px 0; }
-  .profile img {
+.square_image {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  border: 8px solid #7BB858;
+  max-width: 150px;
+  max-height: 150px;
+  overflow: hidden;
+  margin: 0 auto; }
+  .square_image.s2 {
+    border-color: #EA6750; }
+  .square_image img {
     max-width: 100%; }
-  .profile .image_float {
-    width: 25%;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top; }
-    .profile .image_float .square_image {
-      -webkit-border-radius: 100%;
-      -moz-border-radius: 100%;
-      -ms-border-radius: 100%;
-      border-radius: 100%;
-      border: 8px solid #7BB858;
-      max-width: 150px;
-      max-height: 150px;
-      overflow: hidden;
-      margin: 0 auto; }
-      .profile .image_float .square_image.s2 {
-        border-color: #EA6750; }
-  .profile .info {
-    width: 60%;
-    margin-left: 5%;
-    display: inline-block; }
-    .profile .info p {
-      font-size: 16px;
-      line-height: 1.5em; }
-  .profile .name {
-    font-weight: 700;
-    margin-top: 20px;
-    text-align: center; }
-  .profile .position {
-    font-weight: 700;
-    margin-bottom: 10px;
-    font-size: 18px; }
-  .profile .class {
-    text-align: center;
-    font-size: 15px; }
+
+.info p {
+  font-size: 16px;
+  line-height: 1.5em; }
+
+.name {
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center; }
+
+.position {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px; }
+
+.class {
+  text-align: center;
+  font-size: 15px; }
 
 /* Gallery specific */
 .album {
@@ -388,5 +389,10 @@ p {
 
 .album:nth-of-type(4n + 2) .description {
   background: #EA6750; }
+
+@media screen and (max-width: 768px) {
+  .position {
+    text-align: center;
+    margin-top: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

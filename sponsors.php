@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Women in Computing at Cornell</title>
 
-    <link rel="stylesheet" href="css/main.css" />
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" />
+
     <link rel="shortcut icon" href="img/icon.png" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -44,30 +46,32 @@
 
     
     <?php include 'includes/nav.html' ?>
-    <div class="content">
-
+    
+    <div class="container c">
       <h1>Meet our Sponsors</h1>
 
-
-      <div class="section">
-        <center>
-          <h1><center>PLATINUM</center></h1>
-          <!--<img src="/img/lbl_platinum.png" draggable="false"/><br>-->
-          <img src="img/logo_bloomberg.jpg" draggable="false" title="Bloomberg - Platinum"/><br>
-          <br><br>
-          <h1><center>GOLD</center></h1>
-          <!--<img src="/img/lbl_gold.png" draggable="false"/><br>-->
-          <img src="img/logo_microsoft.jpg" draggable="false" width="280"/>  
-          <img src="img/logo_facebook.jpg" draggable="false" width="280"/><br>
-          <br><br>
-          <h1><center>SILVER</center></h1>
-          <!--<img src="/img/lbl_silver.png" draggable="false"/><br>-->
-          <img src="img/logo_broadwaytech.jpg" draggable="false" width="200"/>
-          <img src="img/logo_google.jpg" draggable="false"  width="200"/>
-          <img src="img/logo_goldmansachs.jpg" draggable="false" width="200"/>
+      <br>
+        
+      <h3>PLATINUM</h3>
+      <!--<img src="/img/lbl_platinum.png" draggable="false"/><br>-->
+      <a href="http://www.bloomberg.com/"><img src="img/logo_bloomberg.png" draggable="false" title="Bloomberg - Platinum" width="500"></a><br>
+      
+      <br><br>
+      
+      <h3>GOLD</h3>
+      <!--<img src="/img/lbl_gold.png" draggable="false"/><br>-->
+      <img src="img/logo_microsoft.jpg" draggable="false" width="280"/>  
+      <img src="img/logo_facebook.jpg" draggable="false" width="280"/><br>
+      
+      <br><br>
+      
+      <h3>SILVER</h3>
+      <!--<img src="/img/lbl_silver.png" draggable="false"/><br>-->
+      <img src="img/logo_broadwaytech.jpg" draggable="false" width="200"/>
+      <img src="img/logo_google.jpg" draggable="false"  width="200"/>
+      <img src="img/logo_goldmansachs.jpg" draggable="false" width="200"/>
           
-        </center>
-      </div>
+        
 
 
        

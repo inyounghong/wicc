@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Women in Computing at Cornell</title>
-    
-    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" />
+    
     
     <link rel="shortcut icon" href="img/icon.png" />
     <link rel="shortcut icon" href="http://wicc.acm.org/img/wicc-logo.jpg">
@@ -116,20 +116,20 @@
       <h1>Our Goals</h1>
       <br>
       <div class="col-sm-4 c goals">
-        <div class="image"><img src="img/career2.jpg"></div>
-        <h2>Career Development</h2>
+        <div class="image"><img src="img/career.png" style="bottom:-15px"></div>
+        <h3>Career Development</h3>
         <p>Expanding opportunities and providing career support by publicizing opportunities for women, hosting alumni women panels, tech talks and networking events with companies.</p>
       </div>
 
       <div class="col-sm-4 c goals">
-        <div class="image"><img src="img/outreach2.jpg"></div>
-        <h2>Outreach</h2>
+        <div class="image"><img src="img/outreach2.png"></div>
+        <h3>Outreach</h3>
         <p>Extending our influence by inspiring young girls to pursue computing fields, supporting scholarships for the Grace Hopper Conference, and running weekly Computer Science workshops (LearnCS) held at Cornell for high school and middle school girls in the Ithaca area.</p>
       </div>
 
       <div class="col-sm-4 c goals">
-        <div class="image"><img src="img/community2.jpg"></div>
-        <h2>Community Building</h2>
+        <div class="image"><img src="img/community.png" style="bottom:-5px"></div>
+        <h3>Community Building</h3>
         <p>Building a sense of community among women in computing fields at Cornell through social networking events, informative and inspirational internship panels, and a mentorship program.</p>
       </div>
 
