@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Women in Computing at Cornell</title>
 
-    <link rel="stylesheet" href="css/main.css" />
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" />
+
     <link rel="shortcut icon" href="img/icon.png" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -17,6 +19,7 @@
   </head>
   <body>
     <?php include 'includes/nav.html' ?>
+    
     <div class="container">
       <div class="narrow">
       
@@ -53,9 +56,6 @@
       </div>
     
     <?php include 'includes/footer.html' ?>
-
-
-    <script src="js/jquery.js"></script>
 
   </body>
 </html>

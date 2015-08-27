@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Women in Computing at Cornell</title>
- 
-    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" />
+    
     <link rel="shortcut icon" href="img/icon.png" />
     <link rel="shortcut icon" href="http://wicc.acm.org/img/wicc-logo.jpg">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -20,7 +20,7 @@
     <?php include "includes/nav.html" ?>
 
     <div class="container">
-      <div class="narrow">
+      <div class="middle">
         <h1>Join WICC</h1>
           <div class="row">
             <div class="col-sm-6">
@@ -31,8 +31,8 @@
             <div class="col-sm-6">
               <p><b>Email:</b> <a href="mailto:wicc@cornell.edu">wicc@cornell.edu</a></p> 
               <br>
-              Want to get involved in WICC? Sign up to our listserv to receive notifications about all of our events:<br>
-              Send a <u>blank</u> e-mail to <a href="mailto:wicc-l-request@cornell.edu">wicc-l-request@cornell.edu</a> with the subject <b>join</b> .
+              Want to get involved in WICC? Sign up to our listserv to receive notifications about all of our events: <br>
+              <br>Send a <u>blank</u> e-mail to <a href="mailto:wicc-l-request@cornell.edu">wicc-l-request@cornell.edu</a> with the subject <b>join</b> .
 
             </div>
           </div>

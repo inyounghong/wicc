@@ -26,11 +26,10 @@
 a, a:hover, a:focus {
   text-decoration: none !important; }
 
-.content ul, ol {
-  margin-left: 25px; }
-  .content ul li, ol li {
-    margin: 18px 0;
-    line-height: 1.4em; }
+.container ul, .container ol {
+  margin-left: 20px; }
+  .container ul li, .container ol li {
+    margin: 10px 0; }
 
 /* Main Content */
 .container {
@@ -43,6 +42,11 @@ a, a:hover, a:focus {
 
 .narrow {
   max-width: 900px;
+  margin: 0 auto;
+  padding: 0 5%; }
+
+.middle {
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 5%; }
 
@@ -72,7 +76,8 @@ h1 {
 h2 {
   color: #333;
   font-size: 26px;
-  margin-bottom: 15px; }
+  margin-bottom: 20px;
+  font-weight: 600; }
 
 h3 {
   margin: 20px 0 15px;
@@ -84,6 +89,10 @@ h3 {
 p {
   margin: 20px 0;
   line-height: 28px; }
+
+/* Portraits of CS */
+.questions li {
+  font-weight: 600; }
 
 /* Cover Slider */
 .cover {
@@ -296,6 +305,9 @@ p {
 .opportunities td {
   min-width: 200px; }
 
+.img-block {
+  height: 100px; }
+
 /* Footer */
 .footer {
   background: #333;
@@ -339,7 +351,8 @@ p {
 .position {
   font-weight: 700;
   margin-bottom: 10px;
-  font-size: 18px; }
+  font-size: 18px;
+  text-transform: uppercase; }
 
 .class {
   text-align: center;
