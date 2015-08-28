@@ -69,7 +69,7 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="video">
-            <iframe width="100%" height="400" src="//www.youtube.com/embed/5ctRcy_kL1Q?rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="300" src="//www.youtube.com/embed/5ctRcy_kL1Q?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
 
@@ -105,9 +105,6 @@
         
         Check back next semester!
 
-
-      
-        
       </div>
     </div>
 
