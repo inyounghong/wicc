@@ -23,7 +23,7 @@
 
     <div class="container">
       <div class="middle">
-        <h1>Portraits of Women in Computing at Cornell</h1>
+        <h1>Portraits of WICC</h1>
         <br>
 
         <table class="portraits">
