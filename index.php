@@ -81,7 +81,7 @@
     </div>
 
     <div class="g">
-      <div class="content">
+      <div class="container">
         <h1>Upcoming Events</h1>
         <br>
           

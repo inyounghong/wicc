@@ -52,20 +52,20 @@
 
       <br>
         
-      <h3>PLATINUM</h3>
+      <h2>PLATINUM</h2>
       <!--<img src="/img/lbl_platinum.png" draggable="false"/><br>-->
       <a href="http://www.bloomberg.com/"><img src="img/logo_bloomberg.png" draggable="false" title="Bloomberg - Platinum" width="500"></a><br>
       
       <br><br>
       
-      <h3>GOLD</h3>
+      <h2>GOLD</h2>
       <!--<img src="/img/lbl_gold.png" draggable="false"/><br>-->
       <img src="img/logo_microsoft.jpg" draggable="false" width="280"/>  
       <img src="img/logo_facebook.jpg" draggable="false" width="280"/><br>
       
       <br><br>
       
-      <h3>SILVER</h3>
+      <h2>SILVER</h2>
       <!--<img src="/img/lbl_silver.png" draggable="false"/><br>-->
       <img src="img/logo_broadwaytech.jpg" draggable="false" width="200"/>
       <img src="img/logo_google.jpg" draggable="false"  width="200"/>
