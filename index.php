@@ -74,7 +74,7 @@
         </div>
 
         <div class="col-sm-6">
-          <h1 class="l">Mission</h1>
+          <h1 class="l top">Mission</h1>
           <p>Our goal is to bring together the women in computing at Cornell. We seek not only to encourage prospective women and to expand their opportunities, but also to provide support to existing women in computing fields so that they can carve their own paths in CS.</p>
         </div>
       </div>
@@ -111,7 +111,6 @@
     <div class="container">
 
       <h1>Our Goals</h1>
-      <br>
       <div class="col-sm-4 c goals">
         <div class="image"><img src="img/career.png" style="bottom:-15px"></div>
         <h3>Career Development</h3>

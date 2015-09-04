@@ -52,14 +52,14 @@ a, a:hover, a:focus
 /* Main Content */
 
 .container
-    padding-top: 50px
-    padding-bottom: 80px
+    padding: 50px 30px 80px
     font-size: 17px
     color: #444
     font-weight: 300
     font-size: "Open Sans"
     a
         color: $blue
+
 .narrow
     max-width: 900px
     margin: 0 auto
@@ -382,7 +382,7 @@ p
     color: #ccc
     position: relative
     
-    .content
+    .container
         padding: 30px 0
         font-size: 16px
 
@@ -490,10 +490,42 @@ p
         background: $red
 
 
+@media screen and (max-width: 1000px)
+    .cover
+        height: 350px
+
 @media screen and (max-width: 768px)
     .position
         text-align: center
         margin-top: 10px
         
+    .cover
+        height: 300px
+
+    .nav
+        li
+            a
+                padding: 10px 15px
+
+    .goals .image
+        margin-top: 40px
+
+    h1.l
+        text-align: center
+
+    h1.top
+        padding-top: 40px
 
 
+    .row
+        margin-bottom: 10px
+
+
+
+@media screen and (max-width: 550px)
+    .cover
+        height: 250px
+
+@media screen and (max-width: 450px)
+    .cover
+        height: 180px
