@@ -87,7 +87,7 @@
     </div>
 
     <div class="g">
-      <div class="container">
+      <div class="container sub">
         <h1>Upcoming Events</h1>
         <br>
           
@@ -154,7 +154,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container sub">
 
       <h1>Our Goals</h1>
       <div class="col-sm-4 c goals">

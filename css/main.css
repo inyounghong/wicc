@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700);
 .b {
-  background: #39a39e; }
+  background: #85e6d5; }
 
 .r {
   background: #EA6750; }
@@ -39,9 +39,12 @@ a, a:hover, a:focus {
   font-size: 17px;
   color: #444;
   font-weight: 300;
-  font-size: "Open Sans"; }
+  font-size: "Open Sans";
+  margin-top: 60px; }
   .container a {
-    color: #39a39e; }
+    color: #85e6d5; }
+  .container.sub {
+    margin-top: 0; }
 
 .narrow {
   max-width: 900px;
@@ -58,7 +61,7 @@ a, a:hover, a:focus {
   margin: 0 auto;
   padding: 50px 50px; }
   .content a {
-    color: #39a39e; }
+    color: #85e6d5; }
   .content.center {
     text-align: center; }
 
@@ -104,7 +107,8 @@ p {
 .cover {
   height: 500px;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  top: 60px; }
 
 .rslides {
   position: relative;
@@ -218,11 +222,15 @@ p {
   font-size: 13px !important; }
 
 .navbar {
-  background: #39a39e !important;
+  background: #85e6d5 !important;
   border-radius: 0 !important;
   border: none !important;
   margin-bottom: 0 !important;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%; }
   .navbar li a {
     padding: 20px 15px; }
   .navbar li:hover {
@@ -250,13 +258,14 @@ p {
     cursor: default; }
   .navbar .logo {
     position: absolute;
-    width: 77px;
-    top: -5px; }
+    width: 50px;
+    top: 0px;
+    left: 30px; }
     .navbar .logo img {
       max-width: 100%; }
   .navbar .wicc {
     position: absolute;
-    left: 100px;
+    left: 80px;
     top: 20px;
     color: #fff;
     font-weight: 400;
@@ -287,7 +296,7 @@ p {
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
   border-radius: 100%;
-  background: #39a39e;
+  background: #85e6d5;
   width: 80px;
   height: 65px;
   color: #fff;
@@ -395,7 +404,7 @@ p {
     box-sizing: border-box;
     float: right;
     text-align: center;
-    background: #39a39e;
+    background: #85e6d5;
     display: inline-block;
     transition: all 0.2s; }
     .album .description .album_title {
