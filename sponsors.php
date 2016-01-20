@@ -61,7 +61,7 @@
       <h2>GOLD</h2>
       <!--<img src="/img/lbl_gold.png" draggable="false"/><br>-->
       <img src="http://www.microsoft.com/About/CorporateCitizenship/en-us/DownloadHandler.ashx?Id=07-03-02" draggable="false" width="280"/>  
-      <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/9/2/1441183560181/d8fff663-80b8-4328-9959-0f0bc6132023-2060x1236.jpeg?w=620&q=85&auto=format&sharp=10&s=23adbdd4ab297950d7edd266a73182cf" draggable="false"  width="280"/>
+      <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/9/2/1441183560181/d8fff663-80b8-4328-9959-0f0bc6132023-2060x1236.jpeg?w=620&q=85&auto=format&sharp=10&s=23adbdd4ab297950d7edd266a73182cf" draggable="false"  width="250"/>
       <img src="https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/2392/assets/img/employers/palantir.gif" draggable="false" width="280"/><br>
 
       

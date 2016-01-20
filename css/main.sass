@@ -1,6 +1,7 @@
 /* Initializing */
 
 $blue: #85e6d5
+$darkblue: #5FC3B2
 // Old blue color: #39a39e
 $red: #EA6750
 $yellow: #E2B540
@@ -53,7 +54,7 @@ a, a:hover, a:focus
 /* Main Content */
 
 .container
-    padding: 50px 30px 80px
+    padding: 50px 30px 40px
     font-size: 17px
     color: #444
     font-weight: 300
@@ -78,7 +79,7 @@ a, a:hover, a:focus
 .content
     max-width: 1150px
     margin: 0 auto
-    padding: 50px 50px
+    padding: 100px 50px
 
     a
         color: $blue
@@ -219,6 +220,15 @@ p
     font-size: 16px
     text-align: center
     +box-sizing
+    +border-radius(3px)
+    min-width: 200px
+    margin: 5px auto
+    transition: 0.2s all
+
+    &.teal
+        background: $blue
+        &:hover
+            background: $darkblue
 
 .button_wrap
     text-align: center
@@ -322,29 +332,27 @@ p
 
 /* Events */
 
+#events
+    text-align: center
+
 .event
+    margin: 0 2%
+    width: 20%
     display: inline-block
-    width: 29.5%
-    margin-right: 5%
     vertical-align: top
 
-    &:nth-child(3n + 2)
-        margin-right: 0
-
-    .info
-        display: inline-block
-        margin-left: 8%
-        width: 67%
-
-        p
-            margin: 0 0
+.info 
+    h3
+        margin-bottom: 10px
+    p
+        margin: 0
 
 .date
     +border-radius(100%)
-    background: $blue
+    border: 2px solid $blue
     width: 80px
-    height: 65px
-    color: #fff
+    height: 80px
+    color: $blue
     text-align: center
     padding-top: 15px
     font-weight: 600
@@ -354,11 +362,11 @@ p
 
     .day
         font-size: 28px
-        margin-top: -3px
+        position: relative
+        top: -7px
         
-
     .month
-        font-size: 14px
+        font-size: 13px
         text-transform: uppercase
 
     
@@ -369,7 +377,7 @@ p
     margin: 15px 0
 
     .image
-        height: 90px
+        height: 60px
         position: relative
         bottom: 0
 
@@ -443,6 +451,10 @@ p
     text-align: center
     font-size: 15px
 
+/* Calendar */
+
+#calendar
+    text-align: center
 
 /* Gallery specific */
 
@@ -531,6 +543,9 @@ p
     .row
         margin-bottom: 10px
 
+    .event
+        width: 28%
+
 
 
 @media screen and (max-width: 550px)
@@ -540,3 +555,6 @@ p
 @media screen and (max-width: 450px)
     .cover
         height: 200px
+
+    .event
+        width: 43%

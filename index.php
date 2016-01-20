@@ -87,69 +87,85 @@
     </div>
 
     <div class="g">
-      <div class="container sub">
+      <div class="container sub" id="events">
         <h1>Upcoming Events</h1>
         <br>
           
-          
         <!-- Event template-->
-        <!--<div class="event">
+        <!--
+        <div class="event">
           <div class="date">
             <div class="month">MONTH</div>
             <div class="day">DAY</div>
           </div>
           <div class="info">
-            <h2>EVENT NAME</h2>
+            <h3>EVENT NAME</h3>
             <p>DAY, MONTH DAY</p>
             <p>TIME - TIME</p>
             <p>PLACE</p>
             <p><a href="EVENTLINK">RSVP</a></p>
           </div>
-        </div>-->
+        </div>
+        -->
 
         <div class="event">
           <div class="date">
-            <div class="month">Oct</div>
-            <div class="day">19</div>
+            <div class="month">Jan</div>
+            <div class="day">27</div>
           </div>
           <div class="info">
-            <h2>Git Tutorial</h2>
-            <p>October 19</p>
-            <p>5:30 - 6:30</p>
-            <p>Olin 218</p>
-            <p><a href="https://www.facebook.com/events/1663652087212600/">RSVP</a></p>
+            <h3>WICC Photo Booth</h3>
+            <p>Wednesday, January 27</p>
+            <p>12:00 - 3:00</p>
+            <p>TBA</p>
+            <p><a href="#">RSVP</a></p>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="date">
+            <div class="month">Jan</div>
+            <div class="day">18</div>
+          </div>
+          <div class="info">
+            <h3>Technical Interview</h3>
+            <p>Thursday, January 28</p>
+            <p>5:00 - 7:00</p>
+            <p>TBA</p>
+            <p><a href="#">RSVP</a></p>
           </div>
          </div>
 
         <div class="event">
-          <div class="date">
+    <!--       <div class="date">
             <div class="month">Oct</div>
             <div class="day">20</div>
           </div>
           <div class="info">
-            <h2>Palantir Bowling</h2>
+            <h3>Palantir Bowling</h3>
             <p>October 20</p>
             <p>5:00 PM - 7:00 PM</p>
             <p>Helen Newman Bowling Alley</p>
             <p><a href="https://www.facebook.com/events/745663835538861/">RSVP</a></p>
-          </div>
+          </div> -->
         </div>
 
-
         <div class="event">
-          <div class="date">
+    <!--       <div class="date">
             <div class="month">Oct</div>
             <div class="day">21</div>
           </div>
           <div class="info">
-            <h2>Airbnb Info Session</h2>
+            <h3>Airbnb Info Session</h3>
             <p>October 21</p>
             <p>6:00 PM - 7:30 PM</p>
             <p>Gates G01</p>
             <p><a href="https://www.facebook.com/events/947998991938273/">RSVP</a></p>
-          </div>
+          </div> -->
         </div>
-     
+
+        <br><br><br>
+        <a href="calendar.php" class="button teal">Calendar</a>
 
       </div>
     </div>
@@ -158,7 +174,7 @@
 
       <h1>Our Goals</h1>
       <div class="col-sm-4 c goals">
-        <div class="image"><img src="img/career.png" style="bottom:-15px"></div>
+        <div class="image"><img src="img/career.png" style="bottom:-10px"></div>
         <h3>Career Development</h3>
         <p>Expanding opportunities and providing career support by publicizing opportunities for women, hosting alumni women panels, tech talks and networking events with companies.</p>
       </div>

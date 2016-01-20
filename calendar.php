@@ -24,13 +24,11 @@
 
       <h1>Calendar</h1>
 
-
-      <div class="section">
-        <iframe src="https://www.google.com/calendar/embed?src=cornell.edu_hsa6dh8fjlldkv3s3b076t8tu0%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-      </div>
+      <div class="section" id="calendar">
+        <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cornell.edu_98tsboucmi53v2rlt7kdj43vkc%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
       </div>
       
-      </div>
+    </div>
 
     <?php include 'includes/footer.html' ?>
     <script src="js/jquery.js"></script>
