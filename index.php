@@ -34,6 +34,12 @@
     <div class="cover">
       <ul class="rslides" id="slider2">
           <li>
+            <img src="img/portraits.jpg">
+            <!--<div class="caption">#ILookLikeAnEngineer Campaign
+              <div class="desc">Fall 2015</div>
+            </div>-->
+          </li>
+          <li>
             <img src="img/unpanel.jpg">
             <div class="caption">Welcome Social and Unpanel 
               <div class="desc">Spring 2015</div>
@@ -86,7 +92,7 @@
         <br>
           
           
-        <!-- Event -->
+        <!-- Event template-->
         <!--<div class="event">
           <div class="date">
             <div class="month">MONTH</div>
@@ -100,10 +106,50 @@
             <p><a href="EVENTLINK">RSVP</a></p>
           </div>
         </div>-->
-          
-        
-        
-        Check back next semester!
+
+        <div class="event">
+          <div class="date">
+            <div class="month">Oct</div>
+            <div class="day">19</div>
+          </div>
+          <div class="info">
+            <h2>Git Tutorial</h2>
+            <p>October 19</p>
+            <p>5:30 - 6:30</p>
+            <p>Olin 218</p>
+            <p><a href="https://www.facebook.com/events/1663652087212600/">RSVP</a></p>
+          </div>
+         </div>
+
+        <div class="event">
+          <div class="date">
+            <div class="month">Oct</div>
+            <div class="day">20</div>
+          </div>
+          <div class="info">
+            <h2>Palantir Bowling</h2>
+            <p>October 20</p>
+            <p>5:00 PM - 7:00 PM</p>
+            <p>Helen Newman Bowling Alley</p>
+            <p><a href="https://www.facebook.com/events/745663835538861/">RSVP</a></p>
+          </div>
+        </div>
+
+
+        <div class="event">
+          <div class="date">
+            <div class="month">Oct</div>
+            <div class="day">21</div>
+          </div>
+          <div class="info">
+            <h2>Airbnb Info Session</h2>
+            <p>October 21</p>
+            <p>6:00 PM - 7:30 PM</p>
+            <p>Gates G01</p>
+            <p><a href="https://www.facebook.com/events/947998991938273/">RSVP</a></p>
+          </div>
+        </div>
+     
 
       </div>
     </div>

@@ -105,7 +105,7 @@
         </div>
         <div class="col-sm-8 info">
           <div class="position">Social Events Director</div>
-          <p>All through high school, I had no idea what to major in at the college level or what creer to pursue in my future. I did know however, that I was passionate about mathematics, physics, and helping others. I found myself going after an engineering degree and more specifically a Computer Science degree in order to bring all of these passions together. Still, I was anxious about Computer Science because of the various stereotypes that were present. WICC helped me learn that these stereotypes are meant to be broken and joining this organization freshman year empowered me to follow through with the major. I love that WICC brings together male and femae Computer Scince majors and I love contributing to this comraderie by directing social events. Just as Computer Science brings together so many skills, WICC brings together many unique people for a common purpose: to make Computer Scicne accessible to all.</p>
+          <p>All through high school, I had no idea what to major in at the college level or what creer to pursue in my future. I did know however, that I was passionate about mathematics, physics, and helping others. I found myself going after an engineering degree and more specifically a Computer Science degree in order to bring all of these passions together. Still, I was anxious about Computer Science because of the various stereotypes that were present. WICC helped me learn that these stereotypes are meant to be broken and joining this organization freshman year empowered me to follow through with the major. I love that WICC brings together male and female Computer Scince majors and I love contributing to this comraderie by directing social events. Just as Computer Science brings together so many skills, WICC brings together many unique people for a common purpose: to make Computer Scicne accessible to all.</p>
         </div>
       </div>
         
@@ -144,15 +144,21 @@
         
         
         
-    <!--Cyndi-->
+    <div class="section profile row">
+        <div class="col-sm-4 c">
+          <div class="square_image">
+            <img src="img/board/CyndiChin.jpg">
+          </div>
+          <div class="name">Cyndi Chin</div>
+          <div class="class">Information Science, Systems, and Technology '16</div>
+        </div>
+        <div class="col-sm-8 info">
+          <div class="position">Faculty and Alumni Relations Director</div>
+          <p>The first time I became passionate about CS was when I was taking an introduction to Python course as a Finance major. I grew up solving random puzzles and playing games, so I naturally love the problem solving aspect that comes with programming. Although I enjoy business and finance, I realize that I want to be a part of the tech industry and help create new products for everyone to use. Therefore, I transferred to get more involved in the computing community and pursue a degree in ISST. WICC has definitely helped me with this transition process and I am glad to be a part of the WICC family. Fun Fact: I like to attempt to rap, explore the unknowns and take on new challenges.</p>
+        </div>
+      </div>
       
-<br><br>
-        
-        
-      <h1>Associate Board Members</h1>
-      <br>
-    
-        <!--Haewon-->
+   
         
         <div class="section profile row">
         <div class="col-sm-4 c">
@@ -167,9 +173,22 @@
           <p>I started CS when I was in seventh grade. I took a web design elective and instantly fell in love. I had tons of fun making little websites and finding all of the cool things I could do on a webpage with CSS. Since then I've taken lots of CS classes in high school and at Cornell and I've really enjoyed it. I still like doing web design, but now I also have a big interest in game design and plan to get a minor in it. A fun fact about me is that I lived in Australia for a year.</p>
         </div>
       </div>
-        
-    
-        <!--Dayin-->
+
+
+      <div class="section profile row">
+        <div class="col-sm-4 c">
+          <div class="square_image s2">
+            <img src="img/board/DayinChen.JPG">
+          </div>
+          <div class="name">Dayin Chen</div>
+          <div class="class">Operations Research '17</div>
+        </div>
+        <div class="col-sm-8 info">
+          <div class="position">Outreach Co-Director</div>
+          <p> </p>
+        </div>
+      </div>
+
 
       <div class="section profile row">
         <div class="col-sm-4 c">
@@ -181,9 +200,13 @@
         </div>
         <div class="col-sm-8 info">
           <div class="position">Website Team</div>
-          <p>From a very young age, I was captivated by anything related to computers or technology. But as I grew older and encountered new subjects, I easily became passionate about many of them: physics, art, mathematics, forensic science, law, and many more. Because all the subjects I loved were so diverse, I didn't have a clear idea of what I wanted to be when I grew up or a single passion that I wished to pursue. But recently, I realized that computer science is diverse and interdisciplinary enough to allow me to pursue everything I love to do. The way I see it, being a CS major is about communicating with machines via code to solve problems; and in the process, it enables ideas to evolve, to be shared, and be brought to life. I know that whether I study engineering, physical sciences, art, or even the humanities, there will definitely be an opportunity to apply my skills and interest in computer science. </p>
+          <p>From a very young age, I was captivated by anything related to computers or technology. But as I grew older and encountered new subjects, I easily became passionate about many of them: physics, art, mathematics, forensic science, law, and many more. Because all the subjects I loved were so diverse, I didn't have a clear idea of what I wanted to be when I grew up or a single passion that I wished to pursue. But recently, I realized that computer science is diverse and interdisciplinary enough to allow me to pursue everything I love to do. The way I see it, being a CS major is about communicating with machines via code to solve problems; and in the process, it enables ideas to evolve, to be shared, and be brought to life. I know that whether I study engineering, physical sciences, art, or even the humanities, there will definitely be an opportunity to apply my skills and interest in computer science.</p>
         </div>
       </div>
+
+
+
+
 
       <div class="section profile row">
         <div class="col-sm-4 c">

@@ -26,7 +26,7 @@
 
 
       <div class="section">
-      <iframe src="http://www.google.com/calendar/embed?src=cornell.edu_4q9m4m96lo8joog12ibaou7e4k%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://www.google.com/calendar/embed?src=cornell.edu_hsa6dh8fjlldkv3s3b076t8tu0%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
       </div>
       </div>
       
