@@ -28,7 +28,7 @@
       <h1>Gallery</h1>
 
       <a href="https://www.facebook.com/media/set/?set=a.966248040061129.1073741851.579890425363561&type=3" class="album" target="_blank">
-        <div class="image_box"><img src="https://scontent-lax1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11018570_966248990061034_8341977256685953062_n.jpg?oh=59a816d97525df8f8d95c6474696bdb0&oe=56566461" style="margin-left: -50px" width="500"></div>
+        <div class="image_box"><img src="img/gallery/annual-event.jpg" style="margin-left: -50px" width="500"></div>
         <div class="description">
           <div class="album_title">Annual Event 2015</div>
         </div>
@@ -63,7 +63,7 @@
       </a>
 
       <a href="https://www.facebook.com/media/set/?set=a.912431668776100.1073741846.579890425363561&type=3" class="album" target="_blank">
-        <div class="image_box"><img src="https://scontent-lax1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10947211_912432035442730_2591770958683569377_n.jpg?oh=e86bda244e11b65288f8ad5bb8e6b4ea&oe=565AD6A0" style="margin-left: -100px" width="500"></div>
+        <div class="image_box"><img src="img/gallery/welcome-social.jpg" style="margin-left: -100px" width="500"></div>
         <div class="description">
           <div class="album_title">Welcome Social and UnPanel</div>
         </div>
