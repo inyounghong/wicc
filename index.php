@@ -125,7 +125,7 @@
         <div class="event">
           <div class="date">
             <div class="month">Jan</div>
-            <div class="day">18</div>
+            <div class="day">28</div>
           </div>
           <div class="info">
             <h3>Technical Interview</h3>

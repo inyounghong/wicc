@@ -21,19 +21,27 @@
 
     <div class="container">
       <div class="middle">
-        <h1>Join WICC</h1>
+        
           <div class="row">
-            <div class="col-sm-6">
-              <p><b>Social Media:</b></p>
-              <p><a href="https://www.facebook.com/CornellWomenInComputing">Facebook</a>:  'Like' us on Facebook!</p>
-              <p><a href="https://www.facebook.com/groups/467594836608391/">Group</a>: We invite you to join our Facebook group, where we're stimulating a dialogue about topics relating to women in technology.</p><br>
-            </div>
-            <div class="col-sm-6">
-              <p><b>Email:</b> <a href="mailto:wicc@cornell.edu">wicc@cornell.edu</a></p> 
-              <br>
-              Want to get involved in WICC? Sign up to our listserv to receive notifications about all of our events: <br>
+            <div class="col-sm-7">
+              <h1>Join WICC</h1>
+
+              Want to get involved in WICC? Sign up for our listserv to receive notifications about all of our events: <br>
               <br>Send a <u>blank</u> e-mail to <a href="mailto:wicc-l-request@cornell.edu">wicc-l-request@cornell.edu</a> with the subject <b>join</b> .
 
+              </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4">
+              <p><img src="img/social-media/facebook-square.jpg" class="fb" width="25">
+              <a href="https://www.facebook.com/CornellWomenInComputing">Women in Computing at Cornell</a><br>
+              Like us on Facebook!</p>
+
+              <p><img src="img/social-media/facebook-square.jpg" class="fb" width="25">
+              <a href="https://www.facebook.com/groups/467594836608391/">WICC Members</a>
+              <br>
+              We invite you to join our Facebook group, where we're stimulating a dialogue about topics relating to women in technology.</p><br>
+            
+              
             </div>
           </div>
         </div>
