@@ -1,0 +1,12 @@
+[07-Feb-2016 09:35:17 America/New_York] PHP Warning:  include(menu.html): failed to open stream: No such file or directory in /home/cornellw/public_html/contact.php on line 20
+[07-Feb-2016 09:35:17 America/New_York] PHP Warning:  include(menu.html): failed to open stream: No such file or directory in /home/cornellw/public_html/contact.php on line 20
+[07-Feb-2016 09:35:17 America/New_York] PHP Warning:  include(): Failed opening 'menu.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cornellw/public_html/contact.php on line 20
+[07-Feb-2016 09:35:17 America/New_York] PHP Warning:  include(footer.html): failed to open stream: No such file or directory in /home/cornellw/public_html/contact.php on line 32
+[07-Feb-2016 09:35:17 America/New_York] PHP Warning:  include(footer.html): failed to open stream: No such file or directory in /home/cornellw/public_html/contact.php on line 32
+[07-Feb-2016 09:35:17 America/New_York] PHP Warning:  include(): Failed opening 'footer.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cornellw/public_html/contact.php on line 32
+[08-Feb-2016 15:26:41 America/New_York] PHP Warning:  include(menu.html): failed to open stream: No such file or directory in /home/cornellw/public_html/contact.php on line 20
+[08-Feb-2016 15:26:41 America/New_York] PHP Warning:  include(menu.html): failed to open stream: No such file or directory in /home/cornellw/public_html/contact.php on line 20
+[08-Feb-2016 15:26:41 America/New_York] PHP Warning:  include(): Failed opening 'menu.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cornellw/public_html/contact.php on line 20
+[08-Feb-2016 15:26:41 America/New_York] PHP Warning:  include(footer.html): failed to open stream: No such file or directory in /home/cornellw/public_html/contact.php on line 32
+[08-Feb-2016 15:26:41 America/New_York] PHP Warning:  include(footer.html): failed to open stream: No such file or directory in /home/cornellw/public_html/contact.php on line 32
+[08-Feb-2016 15:26:41 America/New_York] PHP Warning:  include(): Failed opening 'footer.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cornellw/public_html/contact.php on line 32

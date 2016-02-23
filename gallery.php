@@ -7,7 +7,8 @@
 
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="img/icon.png" />
+     <link rel="shortcut icon" href="img/wicc-logo.jpg" />
+    <link rel="shortcut icon" href="http://wicc.acm.org/img/wicc-logo.jpg">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,900,800' rel='stylesheet' type='text/css'>

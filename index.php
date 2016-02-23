@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/main.css" />
     
     
-    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="shortcut icon" href="img/wicc-logo.jpg" />
     <link rel="shortcut icon" href="http://wicc.acm.org/img/wicc-logo.jpg">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -108,61 +108,50 @@
         </div>
         -->
 
+
+        
         <div class="event">
-          <div class="date">
-            <div class="month">Jan</div>
-            <div class="day">27</div>
+           <div class="date">
+            <div class="month">Feb</div>
+            <div class="day">18</div>
           </div>
           <div class="info">
-            <h3>WICC Photo Booth</h3>
-            <p>Wednesday, January 27</p>
-            <p>12:00 - 3:00</p>
-            <p>TBA</p>
-            <p><a href="#">RSVP</a></p>
+            <h3>Chat with Bloomberg Engineers</h3>
+            <p>Wednesday, February 18</p>
+            <p>5:30 PM - 6:30 PM</p>
+            <p>Gates 114</p>
+            <p><a href="https://www.facebook.com/events/832719870171658/" target="_blank">RSVP</a></p>
+          </div>
+        </div>
+
+        <div class="event">
+           <div class="date">
+            <div class="month">Feb</div>
+            <div class="day">19</div>
+          </div>
+          <div class="info">
+            <h3>SpreadAndroidLove with Google</h3>
+            <p>Friday, February 19</p>
+            <p>4:00 PM - 5:30 PM</p>
+            <p>Gates Undergrad Lounge</p>
+            <p><a href="https://www.facebook.com/events/684454115028311/" target="_blank">RSVP</a></p>
           </div>
         </div>
 
         <div class="event">
           <div class="date">
-            <div class="month">Jan</div>
-            <div class="day">28</div>
+            <div class="month">Feb</div>
+            <div class="day">24</div>
           </div>
           <div class="info">
-            <h3>Technical Interview</h3>
-            <p>Thursday, January 28</p>
-            <p>5:00 - 7:00</p>
-            <p>TBA</p>
-            <p><a href="#">RSVP</a></p>
+            <h3>Alumni Lunch with Google</h3>
+            <p>Wednesday, February 24</p>
+            <p>11:30 AM - 1:00 PM</p>
+            <p>Upson Lounge</p>
+            <p><a href="https://www.facebook.com/events/1561120940870177/" target="_blank">RSVP</a></p>
           </div>
          </div>
 
-        <div class="event">
-    <!--       <div class="date">
-            <div class="month">Oct</div>
-            <div class="day">20</div>
-          </div>
-          <div class="info">
-            <h3>Palantir Bowling</h3>
-            <p>October 20</p>
-            <p>5:00 PM - 7:00 PM</p>
-            <p>Helen Newman Bowling Alley</p>
-            <p><a href="https://www.facebook.com/events/745663835538861/">RSVP</a></p>
-          </div> -->
-        </div>
-
-        <div class="event">
-    <!--       <div class="date">
-            <div class="month">Oct</div>
-            <div class="day">21</div>
-          </div>
-          <div class="info">
-            <h3>Airbnb Info Session</h3>
-            <p>October 21</p>
-            <p>6:00 PM - 7:30 PM</p>
-            <p>Gates G01</p>
-            <p><a href="https://www.facebook.com/events/947998991938273/">RSVP</a></p>
-          </div> -->
-        </div>
 
         <br><br><br>
         <a href="calendar.php" class="button teal">Calendar</a>
