@@ -3,7 +3,7 @@
 $blue: #85e6d5
 $darkblue: #5FC3B2
 // Old blue color: #39a39e
-$red: #EA6750
+$red: #ee8484
 $yellow: #E2B540
 $green: #7BB858
 
@@ -19,6 +19,9 @@ $green: #7BB858
 .c
     text-align: center
     display: block
+
+.rfont
+    color: $red
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700)
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700)
@@ -71,6 +74,15 @@ a, a:hover, a:focus
     margin: 0 auto
     padding: 0 5%
 
+.wrap
+    margin: 0 auto
+
+.sm
+    max-width: 500px
+
+.medium
+    max-width: 700px
+
 .middle
     max-width: 1100px
     margin: 0 auto
@@ -91,29 +103,34 @@ a, a:hover, a:focus
     background: #f8f8f8
 
 h1
-    font-weight: 300
+    text-transform: uppercase
+    font-weight: 500
     font-size: 34px
-    color: #444
+    color: $red
     margin: 10px 0 25px!important
     text-align: center
-    font-family: "Open Sans"
+    font-family: "Raleway"
 
     &.l
         text-align: left
 
 h2
-    color: #333
+    color: $red
+    font-family: "Raleway"
+    text-transform: uppercase
     font-size: 26px
     margin-bottom: 20px
-    font-weight: 600
+    font-weight: 700
+    letter-spacing: 1px
+    text-align: center
 
 h3
-    margin: 25px 0 0px
+    margin: 25px 0 20px
     text-transform: uppercase
     font-weight: 600
     font-family: "Ubuntu"
     font-size: 16px
-    color: #777
+    color: $blue
 
 .col-sm-6
     h3
@@ -129,94 +146,37 @@ p
     li 
         font-weight: 600
 
-/* Cover Slider */
 
-.cover
+/* Banner */
+
+.banner
     height: 500px
+    background: #e6faf8
     overflow: hidden
-    position: relative
-    top: 60px
-
-.rslides 
-    position: relative
-    list-style: none
-    overflow: hidden
-    width: 100%
-    padding: 0
-    margin: 0
-
-
-    li
-        -webkit-backface-visibility: hidden
-        position: absolute
-        display: none
-        width: 100%
-        left: 0
-        top: 0
-
-    li:first-child
-        position: relative
-        display: block
-        float: left
-
-    img
-        display: block
-        height: auto
-        float: left
-        width: 100%
-        border: 0
-
-.caption
-    position: absolute
-    right: 50px
-    top: 370px
-    z-index: 99
-    padding: 20px 25px
-    color: #fff
-    background: $red
-    font-size: 18px
-    font-weight: 600
-
-    .desc
-        text-transform: uppercase
-        font-size: 15px
-        opacity: 0.8
-        margin-top: 5px
-        text-align: right
-
-.rslides_tabs
-    position: absolute
-    z-index: 99
-    bottom: 30px
-    width: 100%
-    text-align: center
     
-    li 
-        display: inline-block
+    .bg
+        max-width: 900px
 
-        &.rslides_here a
-            background: #fff
+    .over
+        position: absolute
+        top: 150px
+        right: 5%
+        text-align: right!important
 
-        a
-            border: 2px solid #fff
-            display: block
-            width: 12px
-            height: 12px
-            font-size: 0px
-            margin: 0 10px
-            +border-radius(100%)
-            transition: all .2s
-
-            &:hover
-                background: #fff
+        h1
+            max-width: 400px
+            text-align: right!important
+        
 
 /* Button */
 
 .button
     display: inline-block
     background: $red
+    font-family: "Raleway"
     color: #fff!important 
-    padding: 14px 20px
+    padding: 10px 20px
+    cursor: pointer
     font-size: 16px
     text-align: center
     +box-sizing
@@ -224,6 +184,9 @@ p
     min-width: 200px
     margin: 5px auto
     transition: 0.2s all
+    font-weight: 500
+    text-transform: uppercase
+    letter-spacing: 1px
 
     &.teal
         background: $blue
@@ -257,6 +220,7 @@ p
 
 
 /* Navigation */
+
 .navbar * 
     font-family: "Ubuntu"
     font-weight: 300!important
@@ -325,11 +289,6 @@ p
 
 
 
-/* Video */
-
-.video
-    width: 90%
-
 /* Events */
 
 #events
@@ -385,10 +344,37 @@ p
             padding-bottom: 10px
             max-height: 100%
 
+    h3
+        color: $blue
+
+    a
+        display: block
+        margin: 2px 0
+
 /* Join Us on front page */
 
-.media-buttons img
-    width: 50px
+#joinus
+
+    input
+        border: 1px solid #ddd
+        display: inline-block
+        +border-radius(3px)
+        padding: 8px 10px
+        font-size: 16px
+        text-align: center
+        width: 100%
+        max-width: 230px
+
+    .button
+        width: 100%
+        max-width: 230px
+
+
+    .media-buttons img
+        width: 50px
+
+
+
 
 /* Resources */
 

@@ -31,40 +31,13 @@
   <body>
     <?php include "includes/nav.html" ?>
     
-    <div class="cover">
-      <ul class="rslides" id="slider2">
-          <li>
-            <img src="img/portraits.jpg">
-            <!--<div class="caption">#ILookLikeAnEngineer Campaign
-              <div class="desc">Fall 2015</div>
-            </div>-->
-          </li>
-          <li>
-            <img src="img/unpanel.jpg">
-            <div class="caption">Welcome Social and Unpanel 
-              <div class="desc">Spring 2015</div>
-            </div>
-          </li>
-          <li>
-            <img src="img/scavengerhunt.jpg">
-            <div class="caption r">WICC Scavenger Hunt
-              <div class="desc">Spring 2015</div>
-            </div>
-          </li>
-          <li>
-            <img src="img/cover.jpg">
-            <div class="caption">LearnCS-H Open House
-              <div class="desc">Fall 2014</div>
-            </div>
-          </li>
-          <li>
-            <img src="img/opensourceworkshop.jpg">
-            <div class="caption">Open Source Workshop
-              <div class="desc">Fall 2014</div>
-            </div>
-          </li>
+    <div class="banner">
+      <img class="bg" src="img/banner.jpg">
 
-      </ul>
+      <div class="over">
+        <h1>Women in Computing at Cornell</h1>
+        <a class="button" href="">Join</a>
+      </div>
     </div>
 
 
@@ -72,149 +45,141 @@
     <!-- Start Content -->
     <div class="container">
 
-      <h1 class="top">Mission</h1>
-          <p>Our goal is to bring together the women in computing at Cornell. We seek not only to encourage prospective women and to expand their opportunities, but also to provide support to existing women in computing fields so that they can carve their own paths in CS.</p>
-      <!-- <div class="row"> 
-        <div class="col-sm-6">
-          <div class="video">
-            <iframe width="100%" height="300" src="//www.youtube.com/embed/5ctRcy_kL1Q?rel=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
+      <h2 class="top">Mission</h2>
+      <p class="sm wrap rfont">Our goal is to bring together the women in computing at Cornell. We seek not only to encourage prospective women and to expand their opportunities, but also to provide support to existing women in computing fields so that they can carve their own paths in CS.</p>
 
-        <div class="col-sm-6">-->
-          
-        <!-- </div> -->
-      </div>
-    </div>
-
-    <div class="g">
-      <div class="container sub">
-        <h1>Our Goals</h1>
+      <div class="row wrap medium">
         <div class="col-sm-4 c goals">
-          <div class="image"><img src="img/career.png" style="bottom:-10px"></div>
+          <div class="image"><img src="img/icons/career2.png" style="bottom:-10px"></div>
           <h3>Career Development</h3>
-          <p>Expanding opportunities and providing career support by publicizing opportunities for women, hosting alumni women panels, tech talks and networking events with companies.</p>
+          <a href="">Alumni Network</a>
+          <a href="">Tech Talks</a>
+          <a href="">Networking Events</a>
         </div>
 
         <div class="col-sm-4 c goals">
-          <div class="image"><img src="img/outreach2.png"></div>
+          <div class="image"><img src="img/icons/outreach2.png"></div>
           <h3>Outreach</h3>
-          <p>Extending our influence by inspiring young girls to pursue computing fields, supporting scholarships for the Grace Hopper Conference, and running weekly Computer Science workshops (LearnCS) held at Cornell for high school and middle school girls in the Ithaca area.</p>
+          <a href="">LearnCS</a>
+          <a href="">Grace Hopper</a>
+          <a href="">Faculty Relations</a>
         </div>
 
         <div class="col-sm-4 c goals">
-          <div class="image"><img src="img/community.png" style="bottom:-5px"></div>
+          <div class="image"><img src="img/icons/community2.png" style="bottom:-5px"></div>
           <h3>Community Building</h3>
-          <p>Building a sense of community among women in computing fields at Cornell through social networking events, informative and inspirational internship panels, and a mentorship program.</p>
+          <a href="">Mentorship Program</a>
+          <a href="">Community Discussions</a>
+          <a href="">Panels</a>
         </div>
       </div>
     </div>
 
     
+    <div class="g">
+      <div class="container sub" id="events">
+        <h2>Upcoming Events</h2>
+        <br>
+          
+        <!-- Event template-->
+        <!--
+        <div class="event">
+          <div class="date">
+            <div class="month">MONTH</div>
+            <div class="day">DAY</div>
+          </div>
+          <div class="info">
+            <h3>EVENT NAME</h3>
+            <p>DAY, MONTH DAY</p>
+            <p>TIME - TIME</p>
+            <p>PLACE</p>
+            <p><a href="EVENTLINK">RSVP</a></p>
+          </div>
+        </div>
+        -->
 
-    <div class="container sub" id="events">
-      <h1>Upcoming Events</h1>
-      <br>
+
         
-      <!-- Event template-->
-      <!--
-      <div class="event">
-        <div class="date">
-          <div class="month">MONTH</div>
-          <div class="day">DAY</div>
+        <div class="event">
+           <div class="date">
+            <div class="month">Feb</div>
+            <div class="day">18</div>
+          </div>
+          <div class="info">
+            <h3>Chat with Bloomberg Engineers</h3>
+            <p>Wednesday, February 18</p>
+            <p>5:30 PM - 6:30 PM</p>
+            <p>Gates 114</p>
+            <p><a href="https://www.facebook.com/events/832719870171658/" target="_blank">RSVP</a></p>
+          </div>
         </div>
-        <div class="info">
-          <h3>EVENT NAME</h3>
-          <p>DAY, MONTH DAY</p>
-          <p>TIME - TIME</p>
-          <p>PLACE</p>
-          <p><a href="EVENTLINK">RSVP</a></p>
+
+        <div class="event">
+           <div class="date">
+            <div class="month">Feb</div>
+            <div class="day">19</div>
+          </div>
+          <div class="info">
+            <h3>SpreadAndroidLove with Google</h3>
+            <p>Friday, February 19</p>
+            <p>4:00 PM - 5:30 PM</p>
+            <p>Gates Undergrad Lounge</p>
+            <p><a href="https://www.facebook.com/events/684454115028311/" target="_blank">RSVP</a></p>
+          </div>
         </div>
+
+        <div class="event">
+          <div class="date">
+            <div class="month">Feb</div>
+            <div class="day">24</div>
+          </div>
+          <div class="info">
+            <h3>Alumni Lunch with Google</h3>
+            <p>Wednesday, February 24</p>
+            <p>11:30 AM - 1:00 PM</p>
+            <p>Upson Lounge</p>
+            <p><a href="https://www.facebook.com/events/1561120940870177/" target="_blank">RSVP</a></p>
+          </div>
+        </div>
+
+        <br><br><br>
+        <a href="calendar.php" class="button">Full Calendar</a>
       </div>
-      -->
-
-
-      
-      <div class="event">
-         <div class="date">
-          <div class="month">Feb</div>
-          <div class="day">18</div>
-        </div>
-        <div class="info">
-          <h3>Chat with Bloomberg Engineers</h3>
-          <p>Wednesday, February 18</p>
-          <p>5:30 PM - 6:30 PM</p>
-          <p>Gates 114</p>
-          <p><a href="https://www.facebook.com/events/832719870171658/" target="_blank">RSVP</a></p>
-        </div>
-      </div>
-
-      <div class="event">
-         <div class="date">
-          <div class="month">Feb</div>
-          <div class="day">19</div>
-        </div>
-        <div class="info">
-          <h3>SpreadAndroidLove with Google</h3>
-          <p>Friday, February 19</p>
-          <p>4:00 PM - 5:30 PM</p>
-          <p>Gates Undergrad Lounge</p>
-          <p><a href="https://www.facebook.com/events/684454115028311/" target="_blank">RSVP</a></p>
-        </div>
-      </div>
-
-      <div class="event">
-        <div class="date">
-          <div class="month">Feb</div>
-          <div class="day">24</div>
-        </div>
-        <div class="info">
-          <h3>Alumni Lunch with Google</h3>
-          <p>Wednesday, February 24</p>
-          <p>11:30 AM - 1:00 PM</p>
-          <p>Upson Lounge</p>
-          <p><a href="https://www.facebook.com/events/1561120940870177/" target="_blank">RSVP</a></p>
-        </div>
-      </div>
-
-      <br><br><br>
-      <a href="calendar.php" class="button teal">Full Calendar</a>
-
     </div> <!-- End content -->
 
-    <div class="g">
-      <div class="container">
-        <h1>Join Us</h1>
+    <div class="container" id="joinus">
+      <h2>Join Us</h2>
 
-        <div class="row">
-          <div class="col-sm-6 c">
-            <h3>Students</h3>
-            <p>Join our Listserve</p>
+      <div class="row wrap narrow">
+        <div class="col-sm-6 c">
+          <h3>Students</h3>
+          <input type="text" class="listserve" name="netid" placeholder="Cornell NetID">
+          <a class="button teal">Join our Listserve</a>
 
-            <?php 
-                $to      = 'wicc-l-request@cornell.edu';
-                $subject = 'join';
-                $message = 'hello';
-                $headers = 'From: dg522@cornell.edu';
+          <?php 
+              $to      = 'wicc-l-request@cornell.edu';
+              $subject = 'join';
+              $message = 'hello';
+              $headers = 'From: dg522@cornell.edu';
 
-                //mail($to, $subject, $message, $headers);
-              ?>
+              //mail($to, $subject, $message, $headers);
+            ?>
 
-            <p>Connect with WICC</p>
+          <p>Connect with WICC</p>
 
-            <div class="media-buttons">
-              <a href="https://www.facebook.com/CornellWomenInComputing"><img src="img/social_media/facebook_square.png"></a>
-              <a href="https://www.linkedin.com/groups/8480565"><img src="img/social_media/linkedin_square.png"></a>
-              <a href="https://www.instagram.com/wiccornell/"><img src="img/social_media/instagram_square.png"></a>
-            </div>
-          </div>
-          <div class="col-sm-6 c">
-            <h3>Corporate</h3>
+          <div class="media-buttons">
+            <a href="https://www.facebook.com/CornellWomenInComputing"><img src="img/social_media/facebook_square.png"></a>
+            <a href="https://www.linkedin.com/groups/8480565"><img src="img/social_media/linkedin_square.png"></a>
+            <a href="https://www.instagram.com/wiccornell/"><img src="img/social_media/instagram_square.png"></a>
           </div>
         </div>
-
+        <div class="col-sm-6 c">
+          <h3>Corporate</h3>
+        </div>
       </div>
-    </div> 
+
+    </div>
+
 
     <?php include 'includes/footer.html' ?>
 
