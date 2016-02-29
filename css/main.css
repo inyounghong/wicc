@@ -31,6 +31,9 @@
 a, a:hover, a:focus {
   text-decoration: none !important; }
 
+a:hover {
+  opacity: 0.9; }
+
 .container ul, .container ol {
   margin-left: 20px; }
   .container ul li, .container ol li {
@@ -42,8 +45,7 @@ a, a:hover, a:focus {
   font-size: 17px;
   color: #444;
   font-weight: 300;
-  font-size: "Open Sans";
-  margin-top: 10px; }
+  font-size: "Open Sans"; }
   .container a {
     color: #85e6d5; }
   .container.sub {
@@ -349,6 +351,11 @@ p {
     color: #ccc; }
   .footer .social_media {
     padding: 10px 0 30px; }
+    .footer .social_media img {
+      width: 40px;
+      margin: 0 3px; }
+      .footer .social_media img:hover {
+        opacity: 0.8; }
 
 /* ABOUT US PAGE */
 .square_image {
