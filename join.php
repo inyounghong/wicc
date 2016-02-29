@@ -29,7 +29,10 @@
               Want to get involved in WICC? Sign up for our listserv to receive notifications about all of our events: <br>
               <br>Send a <u>blank</u> e-mail to <a href="mailto:wicc-l-request@cornell.edu">wicc-l-request@cornell.edu</a> with the subject <b>join</b> .
 
-              </div>
+              
+
+
+            </div>
             <div class="col-sm-1"></div>
             <div class="col-sm-4">
               <p><img src="img/social-media/facebook-square.jpg" class="fb" width="25">

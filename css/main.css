@@ -335,6 +335,10 @@ p {
       padding-bottom: 10px;
       max-height: 100%; }
 
+/* Join Us on front page */
+.media-buttons img {
+  width: 50px; }
+
 /* Resources */
 .opportunities td {
   min-width: 200px; }
