@@ -64,25 +64,25 @@
         <div class="col-sm-4 c goals">
           <div class="image"><img src="img/icons/career2.png" style="bottom:-10px"></div>
           <h3>Career Development</h3>
-          <a href="">Alumni Network</a>
-          <a href="">Tech Talks</a>
-          <a href="">Networking Events</a>
+          <a href="#">Alumni Network</a>
+          <a href="#">Tech Talks</a>
+          <a href="#">Networking Events</a>
         </div>
 
         <div class="col-sm-4 c goals">
           <div class="image"><img src="img/icons/outreach2.png"></div>
           <h3>Outreach</h3>
-          <a href="">LearnCS</a>
-          <a href="">Grace Hopper</a>
-          <a href="">Faculty Relations</a>
+          <a href="#">LearnCS</a>
+          <a href="#">Grace Hopper</a>
+          <a href="#">Faculty Relations</a>
         </div>
 
         <div class="col-sm-4 c goals">
           <div class="image"><img src="img/icons/community2.png" style="bottom:-5px"></div>
           <h3>Community Building</h3>
-          <a href="">Mentorship Program</a>
-          <a href="">Community Discussions</a>
-          <a href="">Panels</a>
+          <a href="#">Mentorship Program</a>
+          <a href="#">Community Discussions</a>
+          <a href="#">Panels</a>
         </div>
       </div>
     </div>
@@ -171,7 +171,7 @@
 
 
           <h3>Students</h3>
-          <form method="post" action="subscribe.php">
+          <form method="post" action="php/subscribe.php">
             <input type="text" class="listserve" name="netid" id="netid" placeholder="Cornell NetID">
             <a id="submit" class="button teal">Join Our Listserve</a>
             <div id="error"></div>
