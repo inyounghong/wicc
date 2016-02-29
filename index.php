@@ -17,15 +17,27 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/responsiveslides.min.js"></script>
     <script>
-      // Cover slider function
-      $(function () {
-        $(".rslides").responsiveSlides({
-          auto: true,
-          timeout: 4000,  
-          pager: true,
-          speed: 800,
-        });
+    $(document).ready(function(){
+      $("#submit").click(function(event) {
+        event.preventDefault();
+
+        var netid = $("#netid").val();
+        if (netid.length <= 2){
+          $("#error").html("Please input a valid netID");
+        } else{
+          $.ajax({
+            type: 'POST',
+            url: $("form").attr('action'),
+            data: $('form').serialize(),
+            success: function(res){
+              $("#error").html(res);
+            }
+          });
+        }
       });
+    });
+
+      
     </script>
   </head>
   <body>
@@ -144,6 +156,7 @@
 
         <br><br><br>
         <a href="calendar.php" class="button">Full Calendar</a>
+        <br><br>
       </div>
     </div> <!-- End content -->
 
@@ -151,21 +164,23 @@
       <h2>Join Us</h2>
 
       <div class="row wrap narrow">
-        <div class="col-sm-6 c">
+        <div class="col-sm-4 c">
+
+
+
+
+
           <h3>Students</h3>
-          <input type="text" class="listserve" name="netid" placeholder="Cornell NetID">
-          <a class="button teal">Join our Listserve</a>
+          <form method="post" action="subscribe.php">
+            <input type="text" class="listserve" name="netid" id="netid" placeholder="Cornell NetID">
+            <a id="submit" class="button teal">Join Our Listserve</a>
+            <div id="error"></div>
+          </form>
 
-          <?php 
-              $to      = 'wicc-l-request@cornell.edu';
-              $subject = 'join';
-              $message = 'hello';
-              $headers = 'From: dg522@cornell.edu';
-
-              //mail($to, $subject, $message, $headers);
-            ?>
-
-          <p>Connect with WICC</p>
+          
+        </div>
+        <div class="col-sm-4 c">
+          <h3>Connect with WICC</h3>
 
           <div class="media-buttons">
             <a href="https://www.facebook.com/CornellWomenInComputing"><img src="img/social_media/facebook_square.png"></a>
@@ -173,11 +188,22 @@
             <a href="https://www.instagram.com/wiccornell/"><img src="img/social_media/instagram_square.png"></a>
           </div>
         </div>
-        <div class="col-sm-6 c">
+        <div class="col-sm-4 c">
           <h3>Corporate</h3>
+          <p>Contact us at <br><a href="mailto:wicc@cornell.edu">wicc@cornell.edu</a></p>
         </div>
       </div>
 
+    </div>
+
+    <div class="g">
+      <div class="container">
+        <h2>Why is Wicc's mission important?</h2>
+      </div>
+    </div>
+
+    <div class="bottom_banner">
+      <img src="img/pictures.jpg">
     </div>
 
 
