@@ -193,28 +193,33 @@ p {
 
 /* Navigation */
 .navbar * {
-  font-family: "Ubuntu";
-  font-weight: 300 !important;
-  font-size: 13px !important; }
+  font-family: "Raleway";
+  font-weight: 400 !important;
+  font-size: 15px !important; }
 
 .navbar {
-  background: #85e6d5 !important;
   border-radius: 0 !important;
   border: none !important;
+  border-bottom: 1px solid #85e6d5 !important;
+  background: #fff;
   margin-bottom: 0 !important;
   text-transform: uppercase;
-  position: fixed;
   top: 0;
   z-index: 100;
   width: 100%; }
+  .navbar .container-fluid {
+    max-width: 850px; }
   .navbar li a {
     padding: 20px 15px; }
   .navbar li:hover {
     background: #ee8484; }
+    .navbar li:hover a {
+      color: #fff !important; }
   .navbar a {
-    color: #fff !important; }
+    color: #ee8484 !important; }
   .navbar .open a {
-    background: #ee8484 !important; }
+    background: #ee8484 !important;
+    color: #fff !important; }
   .navbar .dropdown-menu {
     border: none;
     box-shadow: none;
@@ -224,7 +229,8 @@ p {
       width: 100%; }
       .navbar .dropdown-menu li a {
         padding: 15px 15px;
-        background: #ee8484; }
+        background: #ee8484;
+        color: #fff !important; }
         .navbar .dropdown-menu li a:hover {
           background: #E2B540 !important; }
   .navbar .icon-bar {
@@ -240,13 +246,10 @@ p {
     .navbar .logo img {
       max-width: 100%; }
   .navbar .wicc {
-    position: absolute;
-    left: 80px;
     top: 20px;
-    color: #fff;
-    font-weight: 400;
-    width: 250px;
-    z-index: 99; }
+    font-weight: 700 !important;
+    z-index: 99;
+    color: #85e6d5 !important; }
 
 /* Events */
 #events {

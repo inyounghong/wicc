@@ -223,32 +223,38 @@ p
 /* Navigation */
 
 .navbar * 
-    font-family: "Ubuntu"
-    font-weight: 300!important
-    font-size: 13px!important
+    font-family: "Raleway"
+    font-weight: 400!important
+    font-size: 15px!important
 
 .navbar
-    background: $blue!important
     border-radius: 0!important
     border: none!important
+    border-bottom: 1px solid $blue!important
+    background: #fff
     margin-bottom: 0!important
     text-transform: uppercase
-    position: fixed
     top: 0
     z-index: 100
     width: 100%
+
+    .container-fluid
+        max-width: 850px
     
     li
         a
             padding: 20px 15px
     li:hover
         background: $red
+        a
+            color: #fff!important
 
     a
-        color: #fff!important
+        color: $red!important
 
     .open a
         background: $red!important
+        color: #fff!important
 
     .dropdown-menu
         border: none
@@ -262,6 +268,7 @@ p
             a
                 padding: 15px 15px
                 background: $red
+                color: #fff!important
 
                 &:hover
                     background: $yellow!important
@@ -280,13 +287,10 @@ p
         img
             max-width: 100%
     .wicc
-        position: absolute
-        left: 80px
         top: 20px
-        color: #fff
-        font-weight: 400
-        width: 250px
+        font-weight: 700!important
         z-index: 99
+        color: $blue!important
 
 
 

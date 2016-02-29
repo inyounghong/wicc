@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css" />
     
-    
     <link rel="shortcut icon" href="img/wicc-logo.jpg" />
     <link rel="shortcut icon" href="http://wicc.acm.org/img/wicc-logo.jpg">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -16,41 +15,39 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/responsiveslides.min.js"></script>
+    <script src="js/subscribe_ajax.js"></script>
     <script>
-    $(document).ready(function(){
-      $("#submit").click(function(event) {
-        event.preventDefault();
 
-        var netid = $("#netid").val();
-        if (netid.length <= 2){
-          $("#error").html("Please input a valid netID");
-        } else{
-          $.ajax({
-            type: 'POST',
-            url: $("form").attr('action'),
-            data: $('form').serialize(),
-            success: function(res){
-              $("#error").html(res);
-            }
-          });
+    // Smooth scrolling
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
         }
       });
     });
-
       
     </script>
   </head>
   <body>
-    <?php include "includes/nav.html" ?>
     
     <div class="banner">
       <img class="bg" src="img/banner.jpg">
 
       <div class="over">
         <h1>Women in Computing at Cornell</h1>
-        <a class="button" href="">Join</a>
+        <a class="button" href="#joinus">Join</a>
       </div>
     </div>
+
+    <?php include "includes/nav.html" ?>
 
 
     <br>
