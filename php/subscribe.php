@@ -13,8 +13,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $error = "The following email has been added: <br>" . $_POST["netid"] . "@cornell.edu";
   }
 
+  mail($to, $subject, $message, $headers);
   echo $error;
-    //mail($to, $subject, $message, $headers);
+  
   
 }
 ?>
