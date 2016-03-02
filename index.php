@@ -109,47 +109,7 @@
 
 
         
-        <div class="event">
-           <div class="date">
-            <div class="month">Feb</div>
-            <div class="day">18</div>
-          </div>
-          <div class="info">
-            <h3>Chat with Bloomberg Engineers</h3>
-            <p>Wednesday, February 18</p>
-            <p>5:30 PM - 6:30 PM</p>
-            <p>Gates 114</p>
-            <p><a href="https://www.facebook.com/events/832719870171658/" target="_blank">RSVP</a></p>
-          </div>
-        </div>
-
-        <div class="event">
-           <div class="date">
-            <div class="month">Feb</div>
-            <div class="day">19</div>
-          </div>
-          <div class="info">
-            <h3>SpreadAndroidLove with Google</h3>
-            <p>Friday, February 19</p>
-            <p>4:00 PM - 5:30 PM</p>
-            <p>Gates Undergrad Lounge</p>
-            <p><a href="https://www.facebook.com/events/684454115028311/" target="_blank">RSVP</a></p>
-          </div>
-        </div>
-
-        <div class="event">
-          <div class="date">
-            <div class="month">Feb</div>
-            <div class="day">24</div>
-          </div>
-          <div class="info">
-            <h3>Alumni Lunch with Google</h3>
-            <p>Wednesday, February 24</p>
-            <p>11:30 AM - 1:00 PM</p>
-            <p>Upson Lounge</p>
-            <p><a href="https://www.facebook.com/events/1561120940870177/" target="_blank">RSVP</a></p>
-          </div>
-        </div>
+        <iframe src="https://calendar.google.com/calendar/embed?src=cornell.edu_98tsboucmi53v2rlt7kdj43vkc%40group.calendar.google.com&ctz=America/New_York&mode=WEEK&showTabs=0&showPrint=0" style="border: 0" width="700" height="450" frameborder="0" scrolling="no"></iframe>
 
         <br><br><br>
         <a href="calendar.php" class="button">Full Calendar</a>
