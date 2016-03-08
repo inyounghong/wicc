@@ -13,9 +13,11 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,900,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="js/modernizr.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/mailHover.js"></script>
   </head>
   <body>
     <?php include "includes/nav.html" ?>
@@ -39,6 +41,7 @@
           </div>
           <div class="name">Agi Csaki</div>
           <div class="class">Computer Science '17</div>
+          <div class="mail" id="ac2289"><i class="fa fa-envelope" id="ac2289Env"></i><a id="ac2289E" href="mailto:ac2289@cornell.edu">ac2289@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Co-President</div>
@@ -53,6 +56,7 @@
           </div>
           <div class="name">Ameya Acharya</div>
           <div class="class">Computer Science '16</div>
+          <div class="mail" id="apa52"><i class="fa fa-envelope" id="apa52Env"></i><a id="apa52E" href="mailto:apa52@cornell.edu">apa52@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Co-President</div>
@@ -67,6 +71,7 @@
           </div>
           <div class="name">Hanna Ramsden</div>
           <div class="class">Information Science, CS &amp; Business minors '17</div>
+          <div class="mail" id="hnr6"><i class="fa fa-envelope" id="hnr6Env"></i><a id="hnr6E" href="mailto:hnr6@cornell.edu">hnr6@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Mentorship Co-Director</div>
@@ -81,6 +86,7 @@
           </div>
           <div class="name">Megan TeeKing</div>
           <div class="class">Computer Science '17</div>
+          <div class="mail" id="mat333"><i class="fa fa-envelope" id="mat333Env"></i><a id="mat333E" href="mailto:mat333@cornell.edu">mat333@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Mentorship Co-Director</div>
@@ -95,6 +101,7 @@
           </div>
           <div class="name">Melody Spencer</div>
           <div class="class">Computer Science '18</div>
+          <div class="mail" id="mjs585"><i class="fa fa-envelope" id="mjs585Env"></i><a id="mjs585E" href="mailto:mjs585@cornell.edu">mjs585@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Outreach Co-Director</div>
@@ -109,6 +116,7 @@
           </div>
           <div class="name">Esther Jeon</div>
           <div class="class">Computer Science '19</div>
+          <div class="mail" id="eyj5"><i class="fa fa-envelope" id="eyj5Env"></i><a id="eyj5E" href="mailto:eyj5@cornell.edu">eyj5@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Outreach Co-Director</div>
@@ -123,6 +131,7 @@
           </div>
           <div class="name">Michelle Li</div>
           <div class="class">Computer Science '17</div>
+          <div class="mail" id="mql3"><i class="fa fa-envelope" id="mql3Env"></i><a id="mql3E" href="mailto:mql3@cornell.edu">mql3@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Corporate Relations Director</div>
@@ -137,6 +146,7 @@
           </div>
           <div class="name">Aasta Ghandi</div>
           <div class="class">Electrical/Computer Engineering, CS Minor '19</div>
+          <div class="mail" id="apg67"><i class="fa fa-envelope" id="apg67Env"></i><a id="apg67E" href="mailto:apg67@cornell.edu">apg67@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Career Development Director</div>
@@ -151,6 +161,7 @@
           </div>
           <div class="name">Nikita Gupta</div>
           <div class="class">Computer Science '17</div>
+          <div class="mail" id="ng354"><i class="fa fa-envelope" id="ng354Env"></i><a id="ng354E" href="mailto:ng354@cornell.edu">ng354@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Publicity Director</div>
@@ -166,6 +177,7 @@
           </div>
           <div class="name">Richa Deshpande</div>
           <div class="class">Computer Science '18</div>
+          <div class="mail" id="rd382"><i class="fa fa-envelope" id="rd382Env"></i><a id="rd382E" href="mailto:rd382@cornell.edu">rd382@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Social Events Director</div>
@@ -180,6 +192,7 @@
           </div>
           <div class="name">Tori Seidenstein</div>
           <div class="class">Computer Science '18</div>
+          <div class="mail" id="tbs52"><i class="fa fa-envelope" id="tbs52Env"></i><a id="tbs52E" href="mailto:tbs52@cornell.edu">tbs52@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Faculty Relations Director</div>
@@ -197,6 +210,7 @@
           </div>
           <div class="name">Vinisha Mittal</div>
           <div class="class">Computer Science '18</div>
+          <div class="mail" id="vm297"><i class="fa fa-envelope" id="vm297Env"></i><a id="vm297E" href="mailto:vm297@cornell.edu">vm297@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Treasurer</div>
@@ -211,6 +225,7 @@
           </div>
           <div class="name">Eliza Weaver</div>
           <div class="class">Computer Science '17</div>
+          <div class="mail" id="ehw46"><i class="fa fa-envelope" id="ehw46Env"></i><a id="ehw46E" href="mailto:ehw46@cornell.edu">ehw46@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Community Discussions Director</div>
@@ -227,6 +242,7 @@
           </div>
           <div class="name">Kylar Henderson</div>
           <div class="class">Computer Science '16</div>
+          <div class="mail" id="kdh59"><i class="fa fa-envelope" id="kdh59Env"></i><a id="kdh59E" href="mailto:kdh59@cornell.edu">kdh59@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Outreach Co-Chair</div>
@@ -241,6 +257,7 @@
           </div>
           <div class="name">Dayin Chen</div>
           <div class="class">Operations Research '17</div>
+          <div class="mail" id="dc652"><i class="fa fa-envelope" id="dc652Env"></i><a id="dc652E" href="mailto:dc652@cornell.edu">dc652@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Alumni Relations Chair</div>
@@ -255,6 +272,7 @@
           </div>
           <div class="name">Haewon Hwang</div>
           <div class="class">Information Science, Fine Arts, Business '17</div>
+          <div class="mail" id="hh474"><i class="fa fa-envelope" id="hh474Env"></i><a id="hh474E" href="mailto:hh474@cornell.edu">hh474@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Photography, Design, and Publications Chair</div>
@@ -270,6 +288,7 @@
           </div>
           <div class="name">Jerica Huang</div>
           <div class="class">Computer Science '18</div>
+          <div class="mail" id="jh2263"><i class="fa fa-envelope" id="jh2263Env"></i><a id="jh2263E" href="mailto:jh2263@cornell.edu">jh2263@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Website Co-Chair</div>
@@ -284,6 +303,7 @@
           </div>
           <div class="name">Inyoung Hong</div>
           <div class="class">Computer Science '18</div>
+          <div class="mail" id="ih235"><i class="fa fa-envelope" id="ih235Env"></i><a id="ih235E" href="mailto:ih235@cornell.edu">ih235@cornell.edu</a></div>
         </div>
         <div class="col-sm-8 info">
           <div class="position">Website Co-Chair</div>
