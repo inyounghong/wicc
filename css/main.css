@@ -415,6 +415,12 @@ p {
   display: none; }
 
 /* ABOUT US PAGE */
+.profile {
+  margin: 40px auto;
+  color: #888; }
+  .profile h3 {
+    margin-top: 0; }
+
 .square_image {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -431,7 +437,8 @@ p {
 
 .info p {
   font-size: 16px;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  color: #77DCCA; }
 
 .name {
   font-weight: 700;
