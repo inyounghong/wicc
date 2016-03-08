@@ -34,26 +34,26 @@
     });
 
     // Banner resizing
-
     $(document).ready(function(){
-
       resizeBanner();
       
-      
-
+      // Fix menu on scroll
       $(window).scroll(function(){
         fixMenu();
       })
 
+      // Fix banner on resize
       $(window).resize(function(){
         resizeBanner();
       });
     });
 
+    // Resizes Banner to fit current screen height
     function resizeBanner(){
       $(".banner").height(window.innerHeight - 60);
     }
 
+    // Changes menu from relative to fixed position when scrolled past
     function fixMenu(){
       if ($(window).scrollTop() + 60 > window.innerHeight){
         $(".navbar").css("position", "fixed");

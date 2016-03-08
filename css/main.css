@@ -20,13 +20,19 @@
 .rfont {
   color: #ee8484; }
 
+.bfont {
+  color: #77DCCA; }
+
+.tright {
+  text-align: right; }
+
 * {
   border: none;
   background: none;
   padding: 0;
   margin: 0;
   position: relative;
-  font-family: "Lato"; }
+  font-family: "Open Sans"; }
 
 a, a:hover, a:focus {
   text-decoration: none !important; }
@@ -42,10 +48,9 @@ a:hover {
 /* Main Content */
 .container {
   padding: 50px 30px 30px;
-  font-size: 17px;
+  font-size: 16px;
   color: #444;
-  font-weight: 300;
-  font-size: "Open Sans"; }
+  line-height: 26px; }
   .container a {
     color: #85e6d5; }
   .container.sub {
@@ -57,7 +62,7 @@ a:hover {
   padding: 0 5%; }
 
 .wrap {
-  margin: 0 auto; }
+  margin: 15px auto; }
 
 .sm {
   max-width: 500px; }
@@ -102,21 +107,24 @@ h2 {
   font-weight: 700;
   letter-spacing: 1px;
   text-align: center; }
+  h2.alt {
+    text-transform: none;
+    text-align: left;
+    font-size: 24px; }
 
 h3 {
   margin: 25px 0 20px;
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Ubuntu";
-  font-size: 16px;
-  color: #85e6d5; }
+  font-size: 18px;
+  color: #77DCCA; }
 
 .col-sm-6 h3 {
   text-align: center; }
 
 p {
-  margin: 15px 0;
-  line-height: 28px; }
+  margin: 15px 0; }
 
 /* Portraits of CS */
 .questions li {
@@ -172,8 +180,8 @@ p {
 
 /* Cols */
 .row {
-  margin-bottom: 40px;
-  margin-top: 40px; }
+  margin-bottom: 15px;
+  margin-top: 15px; }
 
 .col-sm-6.left {
   padding-right: 30px; }
@@ -355,6 +363,52 @@ p {
       .footer .social_media img:hover {
         opacity: 0.8; }
 
+/* MENTORSHIP PAGE */
+#mentor_buttons {
+  text-align: center; }
+  #mentor_buttons h2 {
+    display: inline-block;
+    width: 47%;
+    text-align: center !important;
+    margin-right: 4%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    padding: 10px 0;
+    transition: all 0.2s; }
+    #mentor_buttons h2:hover {
+      border-bottom: 2px solid #85e6d5; }
+    #mentor_buttons h2.selected {
+      border-bottom: 2px solid #85e6d5; }
+  #mentor_buttons h2:last-child {
+    margin-right: 0; }
+
+.director {
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  padding: 10px 0; }
+  .director .netid {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: -5px; }
+
+.circle {
+  max-width: 170px;
+  display: inline-block; }
+  .circle img {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    width: 100%; }
+
+.circle_sm {
+  max-width: 80px; }
+
+#mentee-info {
+  display: none; }
+
 /* ABOUT US PAGE */
 .square_image {
   -webkit-border-radius: 100%;
@@ -389,9 +443,8 @@ p {
   text-align: center;
   font-size: 15px; }
 
-.mail a{
-  display: none;
-}
+.mail a {
+  display: none; }
 
 /* Calendar */
 #calendar {

@@ -2,6 +2,8 @@
 
 $blue: #85e6d5
 $darkblue: #5FC3B2
+// darker version of blue for text:
+$textblue: #77DCCA 
 // Old blue color: #39a39e
 $red: #ee8484
 $yellow: #E2B540
@@ -23,6 +25,12 @@ $green: #7BB858
 .rfont
     color: $red
 
+.bfont
+    color: $textblue
+
+.tright
+    text-align: right
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700)
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700)
 
@@ -43,7 +51,7 @@ $green: #7BB858
     padding: 0
     margin: 0
     position: relative
-    font-family: "Lato"
+    font-family: "Open Sans"
 
 a, a:hover, a:focus
     text-decoration: none!important
@@ -61,10 +69,9 @@ a:hover
 
 .container
     padding: 50px 30px 30px
-    font-size: 17px
+    font-size: 16px
     color: #444
-    font-weight: 300
-    font-size: "Open Sans"
+    line-height: 26px
     a
         color: $blue
 
@@ -77,7 +84,7 @@ a:hover
     padding: 0 5%
 
 .wrap
-    margin: 0 auto
+    margin: 15px auto
 
 .sm
     max-width: 500px
@@ -126,13 +133,18 @@ h2
     letter-spacing: 1px
     text-align: center
 
+    &.alt
+        text-transform: none
+        text-align: left
+        font-size: 24px
+
 h3
     margin: 25px 0 20px
     text-transform: uppercase
     font-weight: 600
     font-family: "Ubuntu"
-    font-size: 16px
-    color: $blue
+    font-size: 18px
+    color: $textblue
 
 .col-sm-6
     h3
@@ -140,7 +152,6 @@ h3
 
 p
     margin: 15px 0
-    line-height: 28px
 
 /* Portraits of CS */
 
@@ -203,8 +214,8 @@ p
 /* Cols */
 
 .row
-    margin-bottom: 40px
-    margin-top: 40px
+    margin-bottom: 15px
+    margin-top: 15px
 
 .col-sm-6.left
     padding-right: 30px
@@ -422,6 +433,58 @@ p
             &:hover
                 opacity: 0.8
 
+
+/* MENTORSHIP PAGE */
+
+#mentor_buttons
+    text-align: center
+        
+    h2
+        display: inline-block
+        width: 47%
+        text-align: center!important
+        margin-right: 4%
+        letter-spacing: 1px
+        border-bottom: 2px solid #fff
+        cursor: pointer
+        padding: 10px 0
+        transition: all 0.2s
+
+        &:hover
+            border-bottom: 2px solid $blue
+
+        &.selected
+            border-bottom: 2px solid $blue
+
+    h2:last-child
+        margin-right: 0
+
+.director
+    text-align: center
+    display: inline-block
+    width: 150px
+    padding: 10px 0
+
+    .netid
+        font-size: 14px
+        color: #aaa
+        margin-top: -5px
+
+
+
+.circle
+    max-width: 170px
+    display: inline-block
+    img
+        +border-radius(100%)
+        width: 100%
+
+.circle_sm
+    max-width: 80px
+
+#mentee-info
+    display: none
+
 /* ABOUT US PAGE */
 
 
@@ -462,7 +525,7 @@ p
 
 .mail
     a
-        display:none;
+        display: none
 
 /* Calendar */
 
