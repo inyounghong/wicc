@@ -22,7 +22,7 @@
     
       <div class="container">
         <div class="narrow">
-          <h1>About Us</h1>
+          <h1>History</h1>
 
           <p class="large">WICC was founded in March 2013 to bring together women in computing fields at Cornell, expand their opportunities and successes, provide a support network of women, and empower them to encourage younger women to consider computing fields. We hope to create a budding community for women and promote interaction on academic, social, and professional issues. By making women in computing fields visible, providing role models and dispelling stereotypes, WICC fosters a support network to empower women and encourage young girls to discover their love for computing.</p>
           <br>
@@ -207,7 +207,7 @@
       <div class="section profile row">
         <div class="col-sm-4 c">
           <div class="square_image s2">
-            <!-- <img src="img/board/InyoungHong.jpg"> -->
+            <img src="img/board/ElizaWeaver.jpg">
           </div>
           <div class="name">Eliza Weaver</div>
           <div class="class">Computer Science '17</div>
@@ -218,9 +218,7 @@
         </div>
       </div> 
 
-      
-
-      <h1>Chair Positions</h1>
+  
 
        <div class="section profile row">
         <div class="col-sm-4 c">
@@ -296,63 +294,6 @@
     </div> 
   </div>
 
-      <!--
-      <div class="section profile row">
-        <div class="col-sm-4 c">
-          <div class="square_image">
-            <img src="img/board/AmandaIshikawa.jpg">
-          </div>
-          <div class="name">Amanda Ishikawa</div>
-          <div class="class">Operations Research &amp; col-sm-8 Information Engineering '16</div>
-        </div>
-        <div class="col-sm-8 info">
-          <div class="position">Secretary and Treasurer</div>
-          <p>The intro CS class I took my freshman year has changed my life. It made me fall in love with programming and exposed me to a world that refuses to release me from its grasp. I love the way coding challenges me to think and the possibilities it provides never ceases to amaze me. I originally declared CS as my major and though I have since switched, I am continuing to pursue my interests in the field. I definitely faced a lot of challenges trying to find my place in CS and that's one of the reasons I wanted to get involved with WICC. Having the right resources and support available is immensely valuable. WICC does an incredible job of providing that within a strong community and I am incredibly grateful to be a part of it.</p>
-        </div>
-      </div> 
-
-    <div class="section profile row">
-        <div class="col-sm-4 c">
-          <div class="square_image">
-            <img src="img/board/MonaliPatel.jpg">
-          </div>
-          <div class="name">Monali Patel</div>
-          <div class="class">Computer Science '16</div>
-        </div>
-        <div class="col-sm-8 info">
-          <div class="position">Corporate Relations Director</div>
-          <p>I came to Cornell not having a clue about how to program or even what Computer Science really was. After taking my first CS course, I knew I loved it. WICC has provided me with the much needed mentorship, and the opportunity to give back by guiding other girls in CS, and even girls in high school who have never been exposed to CS much like I was. On a larger scale, I was given the chance to help diminish stereotypes about women in the Computer Science field which I never could have done by myself.</p>
-        </div>
-      </div>
-
-    <div class="section profile row">
-        <div class="col-sm-4 c">
-          <div class="square_image">
-            <img src="img/board/SaraVenkatraman.JPG">
-          </div>
-          <div class="name">Sara Venkatraman</div>
-          <div class="class">Computer Science and Statistics '17</div>
-        </div>
-        <div class="col-sm-8 info">
-          <div class="position">Career Development Director</div>
-          <p>I discovered Computer Science in high school and found that it paired very well with my interest in Statistics, especially because modern data analysis is conducted in many programming languages and is dependent on complex algorithms. I was excited to pursue a double major in Computer Science and Statistics upon coming to Cornell, and was very happy to find many students through WICC who shared similar interests!  Cornell’s CS program has been a great way to expand my interests in CS to include software and web development and surely many other subfields within the next few years.  WICC is a wonderful group through which I’ve met lots of friendly and supportive CS students who are always willing to provide valuable advice.  Fun fact:  My favorite data structure is a hash map!</p>
-        </div>
-      </div>
-
-
-        <div class="section profile row">
-        <div class="col-sm-4 c">
-          <div class="square_image">
-            <img src="img/board/CyndiChin.jpg">
-          </div>
-          <div class="name">Cyndi Chin</div>
-          <div class="class">Information Science, Systems, and Technology '16</div>
-        </div>
-        <div class="col-sm-8 info">
-          <div class="position">Faculty and Alumni Relations Director</div>
-          <p>The first time I became passionate about CS was when I was taking an introduction to Python course as a Finance major. I grew up solving random puzzles and playing games, so I naturally love the problem solving aspect that comes with programming. Although I enjoy business and finance, I realize that I want to be a part of the tech industry and help create new products for everyone to use. Therefore, I transferred to get more involved in the computing community and pursue a degree in ISST. WICC has definitely helped me with this transition process and I am glad to be a part of the WICC family. Fun Fact: I like to attempt to rap, explore the unknowns and take on new challenges.</p>
-        </div>
-      </div>-->
 
       <?php include 'includes/footer.html' ?>
 
