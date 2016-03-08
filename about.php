@@ -67,6 +67,21 @@
           <div class="profile row">
             <div class="col-sm-4 c">
               <div class="square_image s2">
+                <img src="img/board/VinishaMittal.jpg">
+              </div>
+              <div class="name">Vinisha Mittal</div>
+              <div class="class">Computer Science '18</div>
+              <div class="mail" id="vm297"><i class="fa fa-envelope" id="vm297Env"></i><a id="vm297E" href="mailto:vm297@cornell.edu">vm297@cornell.edu</a></div>
+            </div>
+            <div class="col-sm-8 info">
+              <h3>Treasurer</h3>
+              <p>I spent most of high school pretty undecided about what to pursue in college. I had always liked art, but never seriously considered it as a career path because I didn't want to give up my interest in math and science. When I realized my passion for art stemed from the creativity and problem solving needed to bring my ideas to life, I knew that I would pursue engineering because it involved everything I loved about art and allowed me to futher my studies in science. Computer Science, in particular, allows me to put these passions to work to solve nearly any problem that we face today, in any feild imaginable! </p>
+            </div>
+          </div>
+
+          <div class="profile row">
+            <div class="col-sm-4 c">
+              <div class="square_image s2">
                 <img src="img/board/HannaRamsden.jpg">
               </div>
               <div class="name">Hanna Ramsden</div>
@@ -203,20 +218,7 @@
           
 
 
-          <div class="profile row">
-            <div class="col-sm-4 c">
-              <div class="square_image s2">
-                <img src="img/board/VinishaMittal.jpg">
-              </div>
-              <div class="name">Vinisha Mittal</div>
-              <div class="class">Computer Science '18</div>
-              <div class="mail" id="vm297"><i class="fa fa-envelope" id="vm297Env"></i><a id="vm297E" href="mailto:vm297@cornell.edu">vm297@cornell.edu</a></div>
-            </div>
-            <div class="col-sm-8 info">
-              <h3>Treasurer</h3>
-              <p>I spent most of high school pretty undecided about what to pursue in college. I had always liked art, but never seriously considered it as a career path because I didn't want to give up my interest in math and science. When I realized my passion for art stemed from the creativity and problem solving needed to bring my ideas to life, I knew that I would pursue engineering because it involved everything I loved about art and allowed me to futher my studies in science. Computer Science, in particular, allows me to put these passions to work to solve nearly any problem that we face today, in any feild imaginable! </p>
-            </div>
-          </div>
+          
 
           <div class="profile row">
             <div class="col-sm-4 c">
@@ -245,7 +247,7 @@
               <div class="mail" id="kdh59"><i class="fa fa-envelope" id="kdh59Env"></i><a id="kdh59E" href="mailto:kdh59@cornell.edu">kdh59@cornell.edu</a></div>
             </div>
             <div class="col-sm-8 info">
-              <h3>Outreach Co-Chair</h3>
+              <h3>Outreach Co-Director</h3>
               <p>I started CS when I was in seventh grade. I took a web design elective and instantly fell in love. I had tons of fun making little websites and finding all of the cool things I could do on a webpage with CSS. Since then I've taken lots of CS classes in high school and at Cornell and I've really enjoyed it. I still like doing web design, but now I also have a big interest in game design and plan to get a minor in it. A fun fact about me is that I lived in Australia for a year.</p>
             </div>
           </div>
@@ -260,7 +262,7 @@
               <div class="mail" id="dc652"><i class="fa fa-envelope" id="dc652Env"></i><a id="dc652E" href="mailto:dc652@cornell.edu">dc652@cornell.edu</a></div>
             </div>
             <div class="col-sm-8 info">
-              <h3>Alumni Relations Chair</h3>
+              <h3>Alumni Relations Director</h3>
               <p> My first exposure to CS came in the form of a required intro to MATLAB class my freshman year. It introduced me to a style of algorithmic thinking and creative problem solving that I had not practiced in any other discipline and I found it intensely rewarding. I initially joined WICC because I wanted to make friends with those who were hardcore enough to pursue such a rigorous major, and I began as a volunteer for the LearnCS outreach program. As I have gotten to know the wonderful ladies in WICC and Girls Who Code, I've discovered that CS really isn't such a scary field after all, and is truly open to all who are interested. This upcoming semester, I will be working to expand WICC's alumni network and connecting current undergraduates with mentors who have experience in industry. </p>
             </div>
           </div>
@@ -275,7 +277,7 @@
               <div class="mail" id="hh474"><i class="fa fa-envelope" id="hh474Env"></i><a id="hh474E" href="mailto:hh474@cornell.edu">hh474@cornell.edu</a></div>
             </div>
             <div class="col-sm-8 info">
-              <h3>Photography, Design, and Publications Chair</h3>
+              <h3>Design and Publications Director</h3>
               <p>I coded for the first time in high school, through the introductory Java course which I enrolled in for kicks and because I had room in my schedule. After that, I dove head first into the tech industry and wanted to know and learn more. I decided to major in Information Science because of my interest in product design, user experience, and digital media!</p>
             </div>
           </div>
@@ -291,7 +293,7 @@
               <div class="mail" id="jh2263"><i class="fa fa-envelope" id="jh2263Env"></i><a id="jh2263E" href="mailto:jh2263@cornell.edu">jh2263@cornell.edu</a></div>
             </div>
             <div class="col-sm-8 info">
-              <h3>Website Co-Chair</h3>
+              <h3>Website Co-Director</h3>
               <p>From a very young age, I was captivated by anything related to computers or technology. But as I grew older and encountered new subjects, I easily became passionate about many of them: physics, art, mathematics, forensic science, law, and many more. Because all the subjects I loved were so diverse, I didn't have a clear idea of what I wanted to be when I grew up or a single passion that I wished to pursue. But recently, I realized that computer science is diverse and interdisciplinary enough to allow me to pursue everything I love to do. The way I see it, being a CS major is about communicating with machines via code to solve problems; and in the process, it enables ideas to evolve, to be shared, and be brought to life. I know that whether I study engineering, physical sciences, art, or even the humanities, there will definitely be an opportunity to apply my skills and interest in computer science.</p>
             </div>
           </div>
@@ -306,7 +308,7 @@
               <div class="mail" id="ih235"><i class="fa fa-envelope" id="ih235Env"></i><a id="ih235E" href="mailto:ih235@cornell.edu">ih235@cornell.edu</a></div>
             </div>
             <div class="col-sm-8 info">
-              <h3>Website Co-Chair</h3>
+              <h3>Website Co-Director</h3>
               <p>I came into CS from a completely artistic point of view. During the last three years of high school, I spent most of my free time exploring various types of digital artwork. I started with paintings, moved into graphic design, and then one day stumbled across web design which utterly capivated me like nothing ever had before. I loved the artistic, front-end side of websites, but then steadily became more interested in the programming aspects of how websites actually do the things they do. These days, I enjoy building beautiful, functional websites as well as learning more about CS in my classes.</p>
             </div>
           </div>
