@@ -67,6 +67,16 @@
     }
     
     </script>
+
+    <style>
+      .navbar{
+        position: relative;
+      }
+
+      body{
+        margin-top: 0;
+      }
+    </style>
   </head>
   <body>
     
