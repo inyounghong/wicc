@@ -389,6 +389,10 @@ p {
   text-align: center;
   font-size: 15px; }
 
+.mail a{
+  display: none;
+}
+
 /* Calendar */
 #calendar {
   text-align: center; }
