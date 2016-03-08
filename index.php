@@ -14,7 +14,6 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,900,800' rel='stylesheet' type='text/css'>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="js/responsiveslides.min.js"></script>
     <script src="js/subscribe_ajax.js"></script>
     <script>
 
@@ -33,7 +32,40 @@
         }
       });
     });
+
+    // Banner resizing
+
+    $(document).ready(function(){
+
+      resizeBanner();
       
+      
+
+      $(window).scroll(function(){
+        fixMenu();
+      })
+
+      $(window).resize(function(){
+        resizeBanner();
+      });
+    });
+
+    function resizeBanner(){
+      $(".banner").height(window.innerHeight - 60);
+    }
+
+    function fixMenu(){
+      if ($(window).scrollTop() + 60 > window.innerHeight){
+        $(".navbar").css("position", "fixed");
+        $(".navbar").css("top", 0);
+        $("h2.top").css("margin-top", 80);
+      } else{
+        $(".navbar").css("position", "relative");
+        $(".navbar").css("top", 0);
+        $("h2.top").css("margin-top", 20);
+      }
+    }
+    
     </script>
   </head>
   <body>
@@ -148,6 +180,7 @@
         <div class="col-sm-4 c">
           <h3>Corporate</h3>
           <p>Contact us at <br><a href="mailto:wicc@cornell.edu">wicc@cornell.edu</a></p>
+          <a href="https://docs.google.com/a/cornell.edu/forms/d/1znGOx1z6wn3O-ZrnrIKAOTvnyaJ5qRvlPoC3QSxazp0/viewform" class="button teal">Host an event</a>
         </div>
       </div>
 
