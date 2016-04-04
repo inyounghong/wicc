@@ -13,9 +13,12 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,900,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
     <script src="js/modernizr.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/mailHover.js"></script>
 
     <script>
     $(document).ready(function(){
@@ -37,6 +40,9 @@
   </head>
   <body>
     <?php include 'includes/nav.html' ?>
+
+    <!-- <div class="page_banner" style="background: url(img/mentorship/banner.jpg)">
+    </div> -->
     
     <!-- Intro container -->
     <div class="container" style="padding-bottom: 10">
@@ -76,7 +82,7 @@
             <div class="col-sm-4 right tright">
               <br><br>
               <div class="circle">
-                <img src="img/mentor.jpg">
+                <img src="img/mentorship/mentor.jpg">
               </div>
             </div>
           </div>
@@ -115,7 +121,7 @@
             <div class="col-sm-4 right">
               <br>
               <div class="circle">
-                <img src="img/mentee.jpg">
+                <img src="img/mentorship/mentee.jpg">
               </div>
             </div>
 
@@ -134,6 +140,30 @@
       </div>
     </div>
 
+    <!-- STATS CONTAINER -->
+    <div class="r">
+      <div class="layer" style="background: url(img/mentorship/mentorship.jpg)"></div>
+      <a href="img/mentorship/mentorship.jpg">sdf</a>
+      <div class="container c" id="stats">
+        <h3>Mentorship 2015-2016</h3>
+
+        <div class="row wrap sm">
+          <div class="col-sm-4">
+            <div class="num">38</div>
+            <div class="desc">Mentors</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="num">72</div>
+            <div class="desc">Mentees</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="num">4-5</div>
+            <div class="desc">Events/Semester</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Director Container -->
     <div class="container c">
       <h3>Mentorship Directors</h3>
@@ -142,7 +172,7 @@
           <img src="img/board/HannaRamsden.jpg">
         </div>
         <div class="name">Hanna Ramsden</div>
-        <div class="netid">hnr6</div>
+        <div class="mail" id="hnr6"><i class="fa fa-envelope" id="hnr6Env"></i><a id="hnr6E" href="mailto:hnr6@cornell.edu">hnr6@cornell.edu</a></div>
       </div>
       
       <div class="director">
@@ -150,7 +180,7 @@
           <img src="img/board/MeganTeeKing.jpg">
         </div>
         <div class="name">Megan TeeKing</div>
-        <div class="netid">mat333</div>
+        <div class="mail" id="mat333"><i class="fa fa-envelope" id="mat333Env"></i><a id="mat333E" href="mailto:mat333@cornell.edu">mat333@cornell.edu</a></div>
       </div>
 
 
