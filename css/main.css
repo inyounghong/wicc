@@ -261,7 +261,8 @@ p {
     top: 20px;
     font-weight: 700 !important;
     z-index: 99;
-    color: #85e6d5 !important; }
+    color: #85e6d5 !important;
+    position: absolute; }
 
 /* Events */
 #events {
