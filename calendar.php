@@ -16,12 +16,44 @@
     <script src="js/modernizr.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+    <!-- jQuery library -->
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- FormatGoogleCalendar Javascript file -->
+    <script src="./js/format-google-calendar.js"></script>
   </head>
 
   <body>
     <?php include 'includes/nav.html' ?>
 
     <div class="content">
+
+      test
+      <ul id="events-upcoming">
+      </ul>
+      <ul id="events-past">
+      </ul>
+
+      <script>
+       $(document).ready(function(){
+
+        formatGoogleCalendar.init({
+          calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/milan.kacurak@gmail.com/events?key=AIzaSyCR3-ptjHE-_douJsn8o20oRwkxt-zHStY',
+          past: false,
+          upcoming: true,
+          sameDayTimes: true,
+          pastTopN: -1,
+          upcomingTopN: 3,
+          itemsTagName: 'li',
+          upcomingSelector: '#events-upcoming',
+          upcomingHeading: '<h2>Upcoming events</h2>',
+          format: ['*date*', ': ', '*summary*', ' — ', '*description*', ' in ', '*location*']
+        });
+       })
+        
+      </script>
+
+      
 
       <h1>Calendar</h1>
 
