@@ -120,31 +120,49 @@ var formatGoogleCalendar = (function() {
             description = result.description || '',
             location = result.location || '',
             i;
+        var date = new Date(result.start.dateTime);
+        var endDate = new Date(result.end.dateTime);
+        
+        var monthNames = ["January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"
+        ];
+        var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-        for (i = 0; i < format.length; i++) {
+        var startTime = getFormattedTime(getDateInfo(date));
+        var endTime = getFormattedTime(getDateInfo(endDate));
 
-            format[i] = format[i].toString();
+        var month = monthNames[date.getMonth()];
+        var dateNum = date.getDate();
+        var day = dayNames[date.getDay()];
 
-            if (format[i] === '*summary*') {
-                output = output.concat('<span class="summary">' + summary + '</span>');
-            } else if (format[i] === '*date*') {
-                output = output.concat('<span class="date">' + dateFormatted + '</span>');
-            } else if (format[i] === '*description*') {
-                output = output.concat('<span class="description">' + description + '</span>');
-            } else if (format[i] === '*location*') {
-                output = output.concat('<span class="location">' + location + '</span>');
-            } else {
-                if ((format[i + 1] === '*location*' && location !== '') ||
-                    (format[i + 1] === '*summary*' && summary !== '') ||
-                    (format[i + 1] === '*date*' && dateFormatted !== '') ||
-                    (format[i + 1] === '*description*' && description !== '')) {
+        output = output.concat('<div class="event"><div class="date"><div class="month">' + month + '</div><div class="day">' + dateNum + '</div></div>');
+        output = output.concat('<div class="info"><h3>' + summary + '</h3><p>' + day + ', ' + month + ' ' + dateNum + '</p><p>' + startTime + ' - ' + endTime + '</p><p>' + location + '</p></div>');
 
-                    output = output.concat(format[i]);
-                }
-            }
-        }
+        // for (i = 0; i < format.length; i++) {
 
-        return output + '</' + tagName + '>';
+        //     format[i] = format[i].toString();
+
+        //     if (format[i] === '*summary*') {
+        //         output = output.concat('<span class="summary">' + summary + '</span>');
+        //     } else if (format[i] === '*date*') {
+        //         //output = output.concat('<span class="date">' + dateFormatted + '</span>');
+        //         output = output.concat('<div class="date"><div class="month">' + date.getMonth() + '</div><div class="day">DAY</div></div>');
+        //     } else if (format[i] === '*description*') {
+        //         output = output.concat('<span class="description">' + description + '</span>');
+        //     } else if (format[i] === '*location*') {
+        //         output = output.concat('<span class="location">' + location + '</span>');
+        //     } else {
+        //         if ((format[i + 1] === '*location*' && location !== '') ||
+        //             (format[i + 1] === '*summary*' && summary !== '') ||
+        //             (format[i + 1] === '*date*' && dateFormatted !== '') ||
+        //             (format[i + 1] === '*description*' && description !== '')) {
+
+        //             output = output.concat(format[i]);
+        //         }
+        //     }
+        // }
+
+        return output;
     };
 
     //Check if date is later then now
@@ -277,18 +295,16 @@ var formatGoogleCalendar = (function() {
     return {
         init: function (settingsOverride) {
             var settings = {
-                calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/milan.kacurak@gmail.com/events?key=AIzaSyCR3-ptjHE-_douJsn8o20oRwkxt-zHStY',
-                past: true,
+                calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/cornell.edu_98tsboucmi53v2rlt7kdj43vkc@group.calendar.google.com/events?key=AIzaSyDLE-WGNFn2JLI2yFyonCMVEz89v0-4ZWg',
+                past: false,
                 upcoming: true,
                 sameDayTimes: true,
                 pastTopN: -1,
-                upcomingTopN: -1,
-                itemsTagName: 'li',
+                upcomingTopN: 4,
+                itemsTagName: 'div',
                 upcomingSelector: '#events-upcoming',
-                pastSelector: '#events-past',
-                upcomingHeading: '<h2>Upcoming events</h2>',
-                pastHeading: '<h2>Past events</h2>',
-                format: ['*date*', ': ', '*summary*', ' &mdash; ', '*description*', ' in ', '*location*']
+                upcomingHeading: '<h2>Upcoming events</h2><br>',
+                format: ['*date*']
             };
 
             settings = mergeOptions(settings, settingsOverride);

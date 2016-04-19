@@ -15,6 +15,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/subscribe_ajax.js"></script>
+    <script src="./js/format-google-calendar.js"></script>
     <script>
 
     // Smooth scrolling
@@ -65,6 +66,14 @@
         $("h2.top").css("margin-top", 20);
       }
     }
+
+    // Upcoming Events
+     $(document).ready(function(){
+      formatGoogleCalendar.init({
+        upcomingTopN: 4
+      });
+     })
+          
     
     </script>
 
@@ -129,8 +138,6 @@
     
     <div class="g">
       <div class="container sub" id="events">
-        <h2>Upcoming Events</h2>
-        <br>
           
         <!-- Event template-->
         <!--
@@ -148,14 +155,14 @@
           </div>
         </div>
         -->
+        <div id="events-upcoming">
+        </div>
 
+    
 
-        
-        <iframe src="https://calendar.google.com/calendar/embed?src=cornell.edu_98tsboucmi53v2rlt7kdj43vkc%40group.calendar.google.com&ctz=America/New_York&mode=WEEK&showTabs=0&showPrint=0" style="border: 0" width="700" height="450" frameborder="0" scrolling="no"></iframe>
-
-        <br><br><br>
-        <a href="calendar.php" class="button">Full Calendar</a>
-        <br><br>
+        <br>
+        <div class="c"><a href="calendar.php" class="button">Full Calendar</a></div>
+        <br>
       </div>
     </div> <!-- End content -->
 

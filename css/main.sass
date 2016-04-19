@@ -314,14 +314,19 @@ p
 
 /* Events */
 
-#events
+#events-upcoming
     text-align: center
 
-.event
-    margin: 0 2%
-    width: 20%
-    display: inline-block
-    vertical-align: top
+    div
+        margin: 10px 2%
+        width: 20%
+        display: inline-block
+        vertical-align: top
+
+        div
+            margin: 0
+            width: 100%
+    
 
 .info 
     h3
@@ -332,9 +337,10 @@ p
 .date
     +border-radius(100%)
     border: 2px solid $blue
-    width: 80px
+    width: 80px!important
     height: 80px
-    color: $blue
+    background: $blue
+    color: #fff
     text-align: center
     padding-top: 15px
     font-weight: 600
@@ -343,13 +349,18 @@ p
     
 
     .day
+        display: block!important
         font-size: 28px
         position: relative
         top: -7px
         
     .month
+        display: block!important
         font-size: 13px
         text-transform: uppercase
+        position: relative
+        font-weight: 700
+        top: -2px
 
     
 
