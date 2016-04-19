@@ -347,8 +347,10 @@ p {
   width: 50px; }
 
 /* Bottom Banner */
-.bottom_banner img {
-  max-width: 100%; }
+#bottom_banner {
+  background: url("../img/pictures.jpg");
+  height: 500px;
+  background-size: cover; }
 
 /* Resources */
 .opportunities td {

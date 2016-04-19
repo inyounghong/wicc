@@ -209,8 +209,7 @@
       </div>
     </div>
 
-    <div class="bottom_banner">
-      <img src="img/pictures.jpg">
+    <div id="bottom_banner">
     </div>
 
 

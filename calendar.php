@@ -33,7 +33,7 @@
   <body>
     <?php include 'includes/nav.html' ?>
 
-    <div class="content">
+    <div class="container">
 
       <div id="events-upcoming">
       </div>
