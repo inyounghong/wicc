@@ -82,7 +82,7 @@
             <div class="col-sm-4 right tright">
               <br><br>
               <div class="circle">
-                <img src="img/mentorship/mentor.jpg">
+                <img src="img/mentorship/ameya.jpg">
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@
               
           </div>
           <div class="c medium wrap">
-            <a class="teal button" href="mentors.php">Sign Up</a>
+            <a class="teal button" href="https://docs.google.com/a/cornell.edu/forms/d/1ayS902W4OrrGt5LcLBynpWWe1vRowMO7poThWesuAog/viewform?c=0&w=1">Sign Up</a>
           </div>
         </div>
 
@@ -143,7 +143,7 @@
     <!-- STATS CONTAINER -->
     <div class="r">
       <div class="layer" style="background: url(img/mentorship/mentorship.jpg)"></div>
-      <a href="img/mentorship/mentorship.jpg">sdf</a>
+      <a href="img/mentorship/mentorship.jpg"></a>
       <div class="container c" id="stats">
         <h3>Mentorship 2015-2016</h3>
 
