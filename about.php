@@ -316,7 +316,7 @@
         </div> 
         <br><br>
         <div class="narrow">
-          <h2>Portraits of WICC</h2>
+          <h2>Faculty Advisors</h2>
           <div class="profile row">
             <div class="col-sm-4 c">
               <div class="square_image s2">
