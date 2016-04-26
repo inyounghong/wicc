@@ -506,6 +506,26 @@ p {
   margin-right: 6px;
   margin-bottom: 10px; }
 
+/* Calendar override */
+#calendar {
+  margin-bottom: 60px; }
+  #calendar .fc-day-number {
+    color: #888; }
+  #calendar .fc-state-default {
+    background-image: none;
+    box-shadow: none;
+    border: none;
+    text-shadow: none; }
+  #calendar h2 {
+    color: #85e6d5;
+    font-size: 20px; }
+  #calendar .fc-day-grid-event .fc-content {
+    white-space: normal;
+    padding: 10px 0; }
+  #calendar .fc-event {
+    border: #ee8484;
+    background: #ee8484; }
+
 /* Media */
 @media screen and (max-width: 1000px) {
   .cover {
