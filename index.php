@@ -90,11 +90,11 @@
   <body>
     
     <div class="banner">
-      <img class="bg" src="img/banner.jpg">
 
       <div class="over">
+        <img class="watermark" src="img/watermark.png" width="600">
         <h1>Women in Computing at Cornell</h1>
-        <a class="button" href="#joinus">Join</a>
+        <a class="button teal" href="#joinus">Join</a>
       </div>
     </div>
 

@@ -168,7 +168,8 @@ p
 
 .banner
     height: 500px
-    background: #e6faf8
+    background: url(/img/banner.jpg) center center
+    background-size: cover
     overflow: hidden
     
     .bg
@@ -177,12 +178,13 @@ p
     .over
         position: absolute
         top: 150px
-        right: 5%
-        text-align: right!important
-
+        text-align: center!important
+        width: 100%
         h1
-            max-width: 400px
-            text-align: right!important
+            color: #fff
+            font-weight: 400
+
+            margin-top: 30px!important
         
 
 /* Button */
@@ -211,6 +213,15 @@ p
         background: $blue
         &:hover
             background: $darkblue
+
+    &.white
+        opacity: 1!important
+        background: none
+        border: 2px solid #fff!important
+        &:hover
+            background: $blue
+            border-color: $blue!important
+            
 
 .button_wrap
     text-align: center

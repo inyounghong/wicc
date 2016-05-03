@@ -136,18 +136,20 @@ p {
 /* Banner */
 .banner {
   height: 500px;
-  background: #e6faf8;
+  background: url(/img/banner.jpg) center center;
+  background-size: cover;
   overflow: hidden; }
   .banner .bg {
     max-width: 900px; }
   .banner .over {
     position: absolute;
     top: 150px;
-    right: 5%;
-    text-align: right !important; }
+    text-align: center !important;
+    width: 100%; }
     .banner .over h1 {
-      max-width: 400px;
-      text-align: right !important; }
+      color: #fff;
+      font-weight: 400;
+      margin-top: 30px !important; }
 
 /* Button */
 .button {
@@ -177,6 +179,13 @@ p {
     background: #85e6d5; }
     .button.teal:hover {
       background: #5FC3B2; }
+  .button.white {
+    opacity: 1 !important;
+    background: none;
+    border: 2px solid #fff !important; }
+    .button.white:hover {
+      background: #85e6d5;
+      border-color: #85e6d5 !important; }
 
 .button_wrap {
   text-align: center; }
