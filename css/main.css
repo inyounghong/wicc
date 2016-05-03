@@ -501,6 +501,28 @@ p {
 #calendar {
   text-align: center; }
 
+/* Career */
+.career_wrap {
+  text-align: center; }
+
+.career_item {
+  display: inline-block;
+  background: #ee8484;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 30px;
+  vertical-align: top;
+  text-transform: uppercase;
+  font-weight: bold; }
+
 /* Join */
 .fb {
   margin-right: 6px;
