@@ -64,6 +64,22 @@
             </div>
           </div>
 
+
+          <div class="profile row">
+            <div class="col-sm-4 c">
+              <div class="square_image">
+                <img src="img/board/HariniKannan.jpg">
+              </div>
+              <div class="name">Harini Kannan</div>
+              <div class="class">Computer Science '16</div>
+              <div class="mail" id="hk473"><i class="fa fa-envelope" id="hk473Env"></i><a id="hk473E" href="mailto:hk473@cornell.edu">hk473@cornell.edu</a></div>
+            </div>
+            <div class="col-sm-8 info">
+              <h3>Co-President</h3>
+              <p>It was almost by chance that I landed into Information Science and CS. In high school, I was not entirely sure what I wanted to do. I had a very mixed set of classes, definitely not all STEM so I never had this deeply rooted sense of commitment when it came to perhaps picking a STEM major in college. In senior year I decided to take AP Computer Science on a whim, knowing that it was not rigorously taught at my high school. However, I found myself becoming almost addicted to the mindset of a problem solver, from tiring analysis to utter frustration to ultimate satisfaction in the end. I didn't fall in love with computer science after compiling "Hello World!", though that's a nice anecdote. It took me an entire semester to realize that this may be something I want to pursue in college. As an information science major, I feel especially connected to idea of not being a programmer but being a problem solver and I love the scope Information Science provides in order to play that role. Through design, product strategy, and development I feel I can handle solving real problems in life through technology or at least design thinking. My ability to do this makes me happy that I chose the path that I did, and never once looked back. </p>
+              </div>
+          </div>
+
           <div class="profile row">
             <div class="col-sm-4 c">
               <div class="square_image s2">
