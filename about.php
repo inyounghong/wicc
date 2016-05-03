@@ -71,7 +71,7 @@
                 <img src="img/board/HariniKannan.jpg">
               </div>
               <div class="name">Harini Kannan</div>
-              <div class="class">Computer Science '16</div>
+              <div class="class">Information Science '18</div>
               <div class="mail" id="hk473"><i class="fa fa-envelope" id="hk473Env"></i><a id="hk473E" href="mailto:hk473@cornell.edu">hk473@cornell.edu</a></div>
             </div>
             <div class="col-sm-8 info">
