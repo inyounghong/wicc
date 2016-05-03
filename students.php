@@ -24,11 +24,11 @@
     <div class="narrow">
         <h2>Career Development</h2>
 
-        <div class="career_wrap">
+        <!--<div class="career_wrap">
             <a class="career_item">Latex</a>
             <a class="career_item">Technical Interviews</a>
             <a class="career_item">Web Dev</a>
-        </div>
+        </div>-->
         
         <br><br>
         <h2>Coding Resources</h2>
