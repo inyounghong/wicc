@@ -114,6 +114,9 @@ h2 {
     text-transform: none;
     text-align: left;
     font-size: 24px; }
+  h2.b {
+    color: #85e6d5;
+    background: none; }
 
 h3 {
   margin: 25px 0 20px;
@@ -136,7 +139,7 @@ p {
 /* Banner */
 .banner {
   height: 500px;
-  background: url(/img/banner.jpg) center center;
+  background: url(../img/banner.jpg) center center;
   background-size: cover;
   overflow: hidden; }
   .banner .bg {
@@ -267,11 +270,12 @@ p {
     .navbar .logo img {
       max-width: 100%; }
   .navbar .wicc {
-    top: 20px;
-    font-weight: 700 !important;
+    top: 14px;
+    font-weight: 400 !important;
     z-index: 99;
     color: #85e6d5 !important;
-    position: absolute; }
+    position: absolute;
+    font-size: 22px !important; }
 
 /* Events */
 #events-upcoming {
@@ -362,11 +366,16 @@ p {
   background-size: cover; }
 
 /* Resources */
+.resources-info p {
+  color: #888; }
+
 .opportunities td {
   min-width: 200px; }
 
 .img-block {
   height: 100px; }
+  .img-block img {
+    max-height: 100%; }
 
 /* Footer */
 .footer {
@@ -512,7 +521,8 @@ p {
 
 /* Career */
 .career_wrap {
-  text-align: center; }
+  text-align: center;
+  margin-top: 30px; }
 
 .career_item {
   display: inline-block;
@@ -521,16 +531,21 @@ p {
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
   border-radius: 100%;
-  color: #fff;
-  width: 100px;
-  height: 100px;
+  color: #fff !important;
+  width: 110px;
+  height: 110px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding-top: 30px;
+  padding-top: 45px;
   vertical-align: top;
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 15px;
+  margin: 0 5px; }
+  .career_item.two {
+    padding-top: 35px; }
 
 /* Join */
 .fb {

@@ -16,31 +16,62 @@
     <script src="js/modernizr.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <style>
+    iframe{
+        border: 10px solid #eee;
+    }
+    </style>
   </head>
   <body>
 
     <?php include 'includes/nav.html' ?>
 
     <div class="container">
-      <div class="middle">
-        <h1>Workshops</h1>
-        <br>
-        <h2>Technical Interviews: The Crash Course</h2>
-        <h3>Spring 2016</h3>  
-        <br>
-        <iframe src="https://docs.google.com/presentation/d/1iqq0ZgXCIbXENg9Pc4-VO7NA1OVbCmNvHmfdPIDqhBc/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        <p><b>A recording of the event is available <a href="https://cornell.mediasite.com/Mediasite/Play/1a9a88a913c94869b35017fcca1d61a91d" target="_blank">HERE</a> !</b> (Cornell login required)</p>
-        
-        <br><br>
-        <h2>Web Development Workshop Series</h2>
-        <h3>Fall 2015</h3>  
-        <br>
-        <iframe src="https://docs.google.com/document/d/1OZER_z5VaJyTZ0e2TeYMSvo-99k6-R-2mn1mNk5niAc/pub?embedded=true" width="500" height="400"></iframe>
-        <br><br>
-        <iframe src="https://docs.google.com/document/d/1uVsW8Ow9flkybfsmq6llTAZwM4_ttT76pqsPRUmZLBo/pub?embedded=true" width="500" height="400"></iframe>
-        
-        
-      </div>  
+        <div class="sm wrap">
+            <h2>Workshops</h2>
+            <p class="rfont">Workshops organized by WICC.</p>
+        </div>
+    </div>
+
+    <div class="g" id="interviews">
+        <div class="container">
+            <div class="narrow">
+                <h2 class="b">Technical Interviews: The Crash Course</h2>
+                <h3 class="c">Spring 2016</h3>  
+                <br>
+                <iframe src="https://docs.google.com/presentation/d/1iqq0ZgXCIbXENg9Pc4-VO7NA1OVbCmNvHmfdPIDqhBc/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                <p><b>A recording of the event is available <a href="https://cornell.mediasite.com/Mediasite/Play/1a9a88a913c94869b35017fcca1d61a91d" target="_blank">HERE</a> !</b> (Cornell login required)</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+                
+    <div class="container" id="webdev">
+        <div class="narrow">
+            <h2 class="b">Web Development Workshop Series</h2>
+            <h3 class="c">Fall 2015</h3>  
+            <br>
+            <iframe src="https://docs.google.com/document/d/1OZER_z5VaJyTZ0e2TeYMSvo-99k6-R-2mn1mNk5niAc/pub?embedded=true" width="100%" height="500"></iframe>
+            <br><br>
+            <iframe src="https://docs.google.com/document/d/1uVsW8Ow9flkybfsmq6llTAZwM4_ttT76pqsPRUmZLBo/pub?embedded=true" width="100%" height="500"></iframe>
+            
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="g" id="latex">
+        <div class="container">
+            <div class="narrow">
+                <h2 class="b">Latex</h2>
+                <h3 class="c">Fall 2015</h3>  
+                
+                <p>Coming soon</p>
+                
+                </div>
+            </div>  
+        </div>
     </div>
         
         
