@@ -117,6 +117,10 @@ h2 {
   h2.b {
     color: #85e6d5;
     background: none; }
+  h2#heading {
+    border-bottom: 1px solid #ee8484;
+    padding-bottom: 10px;
+    display: inline-block; }
 
 h3 {
   margin: 25px 0 20px;
@@ -610,5 +614,3 @@ p {
 
   .event {
     width: 43%; } }
-
-/*# sourceMappingURL=main.css.map */

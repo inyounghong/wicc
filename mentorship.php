@@ -47,7 +47,9 @@
     <!-- Intro container -->
     <div class="container" style="padding-bottom: 10">
       <div class="sm wrap">
-        <h2>Mentorship</h2>
+        <div style="text-align:center">
+          <h2 id="heading">Mentorship</h2>
+        </div>
 
         <p class="rfont">Our mentorship program strives to encourage and aid women who are pursuing studies or future employment 
       in computing by connecting female undergraduates with more experienced upperclassmen and alumni 
