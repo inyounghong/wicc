@@ -36,7 +36,7 @@
           <div class="col-sm-6 c">
             <h3>Corporate</h3>
             <p>Contact us at <br><a href="mailto:wicc@cornell.edu">wicc@cornell.edu</a></p>
-            <a href="https://docs.google.com/a/cornell.edu/forms/d/1znGOx1z6wn3O-ZrnrIKAOTvnyaJ5qRvlPoC3QSxazp0/viewform" class="button teal">Host an event</a>
+            <a href="https://docs.google.com/a/cornell.edu/forms/d/1znGOx1z6wn3O-ZrnrIKAOTvnyaJ5qRvlPoC3QSxazp0/viewform" class="button teal" target="_blank">Host an event</a>
           </div>
         </div>
         <br>
@@ -45,13 +45,13 @@
           <div class="col-sm-6 c">
             <h3>Alumni</h3>
             <p>Join our alumni network!</p>
-            <a href="#" class="button teal">Coming Soon</a>
+            <a href="https://docs.google.com/forms/d/1IrrWvLL6JOESiQorHUvmAFOCTNwJ1eeP2GbVrv-dD8Q/viewform" class="button teal" target="_blank">Join</a>
           </div>
 
           <div class="col-sm-6 c">
             <h3>Mentorship</h3>
             <p>Participate in our mentorship program as a mentor or a mentee!</p>
-            <a href="http://localhost/wicc/mentorship.php" class="button teal">Learn More</a>
+            <a href="mentorship.php" class="button teal" target="_blank">Learn More</a>
           </div>
         </div>
 
