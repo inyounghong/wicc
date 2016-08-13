@@ -330,42 +330,6 @@
           </div>
 
         </div> 
-        <br><br>
-        <div class="narrow">
-          <h2>Faculty Advisors</h2>
-          <div class="profile row">
-            <div class="col-sm-4 c">
-              <div class="square_image s2">
-                <img src="img/portraits/Tardos.jpg">
-              </div>
-              <div class="name">&#201;va Tardos</div>
-              <div class="class">CS Professor</div>
-              </div>
-            <div class="col-sm-8 info">
-              <li><q>How did you get interested in CS?</q></li>
-                <p>My degree is in Mathematics, and I was working on discrete math. Algorithmic questions are closely related, and I shifted to CS as CS has many exciting research questions and great research community. I learned about a lot of this during a postdoc in Berkeley.</p>
-
-                <li><q>What is an accomplishment of which you're most proud?</q></li>
-
-     
-                <p>If I may mention two:<br>
-
-                  -The Algorithm Design textbook, that is used at many schools, and helped many students understand the importance of mathematical analysis of algorithms in CS<br>
-
-                  -Research I have done on the effect of selfish behavior on system outcome (called the Price of Anarchy)</p>
-
-                <li><q>What advice would you give students who are on the fence about computing?</q></li>
-                <p>CS is an exciting an very broad field with great opportunities in industry, in graduate schools, as well as many forms of interdisciplinary work. I originally majored in math, thinking of math a tool that will be useful in any field I may want to think about from social science to any of the classical sciences. CS is even better for this than math: a CS degree and CS knowledge opens doors to almost any field you may want to explore later in life.</p>
-
-                <li><q>What is the coolest thing you've been able to do through CS?</q></li>
-                <p>Become a university faculty member in the US, teach great students, get involved in many cool research.</p>
-
-                <li><q>What are some of your non-CS interest or anything unique about you you'd like to share?</q></li>
-                <p>I have a family with two kids, my younger one is finishing high school this year, both are intercollegiate soccer players. I grew up in Hungary, and my family is not CS or math people: My Dad was a MP in Hungary, and my Mom a child psychologist. At the moment it’s hard to find time for things beside teaching/research and my family.</p>
-                </div>
-          </div>
-
-        </div>
     </div>
 
 
