@@ -53,30 +53,22 @@
       <br>
         
       <h2>PLATINUM</h2>
-      <!--<img src="/img/lbl_platinum.png" draggable="false"/><br>-->
-      <a href="https://www.deshaw.com/"><img src="https://www.iacr.org/conferences/crypto2008/DESCO_Logo.jpg" draggable="false" title="D.E. Shaw - Platinum" width="500"></a><br>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_(2012).svg/2000px-Microsoft_logo_(2012).svg.png" draggable="false" width="400"/><br>  
+      <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/9/2/1441183560181/d8fff663-80b8-4328-9959-0f0bc6132023-2060x1236.jpeg?w=620&q=85&auto=format&sharp=10&s=23adbdd4ab297950d7edd266a73182cf" draggable="false"  width="400"/><br>
+      <img src="https://www.iacr.org/conferences/crypto2008/DESCO_Logo.jpg" draggable="false" title="D.E. Shaw - Platinum" width="400"></a><br>
       
       <br><br>
       
       <h2>GOLD</h2>
-      <!--<img src="/img/lbl_gold.png" draggable="false"/><br>-->
-      <img src="http://www.microsoft.com/About/CorporateCitizenship/en-us/DownloadHandler.ashx?Id=07-03-02" draggable="false" width="280"/>  
-      <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/9/2/1441183560181/d8fff663-80b8-4328-9959-0f0bc6132023-2060x1236.jpeg?w=620&q=85&auto=format&sharp=10&s=23adbdd4ab297950d7edd266a73182cf" draggable="false"  width="250"/>
-      <img src="https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/2392/assets/img/employers/palantir.gif" draggable="false" width="280"/><br>
-
+      <img src="https://github-jobs.s3.amazonaws.com/dba43940-0b39-11e3-83c2-8c287f4c9d67.jpeg" draggable="false" width="280"/>
+      <img src="https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/2392/assets/img/employers/palantir.gif" draggable="false" width="280"/>
+      <img src="http://blogs-images.forbes.com/davidvinjamuri/files/2014/07/airbnb_horizontal_lockup_print.jpg" draggable="false" width="280" /><br>
+      
       
       <br><br>
       
       <h2>SILVER</h2>
-      <!--<img src="/img/lbl_silver.png" draggable="false"/><br>-->
-      <img src="https://cf.dropboxstatic.com/static/images/brand/logotype-vflFbF9pY.png" draggable="false" width="200"/>
-      <img src="http://blogs-images.forbes.com/davidvinjamuri/files/2014/07/airbnb_horizontal_lockup_print.jpg" draggable="false" width="200" />
-      <img src="https://adainitiativedotorg.files.wordpress.com/2013/05/bloomberg-logo-blk.png" draggable="false" width="200" />
-      <img src="http://www.squarespace.com/assets/logos/squarespace-logo-horizontal-black.jpg" draggable="false" width="240" /><br>
-      
-      <img src="img/logo_goldmansachs.jpg" draggable="false" width="200"/>
-      <img src="img/logo_broadwaytech.jpg" drarggable="false" width="200" />
-      <img src="http://photos.prnewswire.com/prnfull/20050511/SFW134LOGO" draggable="false" width="200" />
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Applied_Predictive_Technologies_Logo.jpg/220px-Applied_Predictive_Technologies_Logo.jpg" draggable="false" width="200" />
           
         
 
