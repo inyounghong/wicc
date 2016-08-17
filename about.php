@@ -166,7 +166,7 @@
               <div class="mail" id="jh2263"><i class="fa fa-envelope" id="jh2263Env"></i><a id="jh2263E" href="mailto:jh2263@cornell.edu">jh2263@cornell.edu</a></div>
             </div>
             <div class="col-sm-8 info">
-              <h3>Career Development Director</h3>
+              <h3>Career Development Co-Director</h3>
               <p>From a very young age, I was captivated by anything related to computers or technology. But as I grew older and encountered new subjects, I easily became passionate about many of them: physics, art, mathematics, forensic science, law, and many more. Because all the subjects I loved were so diverse, I didn't have a clear idea of what I wanted to be when I grew up or a single passion that I wished to pursue. But recently, I realized that computer science is diverse and interdisciplinary enough to allow me to pursue everything I love to do. The way I see it, being a CS major is about communicating with machines via code to solve problems; and in the process, it enables ideas to evolve, to be shared, and be brought to life. I know that whether I study engineering, physical sciences, art, or even the humanities, there will definitely be an opportunity to apply my skills and interest in computer science.</p>
             </div>
           </div>
@@ -183,7 +183,7 @@
               <div class="mail" id="apg67"><i class="fa fa-envelope" id="apg67Env"></i><a id="apg67E" href="mailto:apg67@cornell.edu">apg67@cornell.edu</a></div>
             </div>
             <div class="col-sm-8 info">
-              <h3>Career Development Director</h3>
+              <h3>Career Development Co-Director</h3>
               <p>A professor once told me that engineers build the plane computer scientists pilot. But, I was interested in both building and developing. Cornell gives me the opportunity to do both while also collaborating with people in various fields. WICC gives me the opportunity to do the same but on a higher level – I get to have conversations and engage with engineering/CS people while learning and organizing events that help us learn more and prepare us for our futures. Moreover, WICC extends this sort of collaboration and opens doors for women, specifically, who are interested in technology, and I think that forcing focused discussions can help expose underlying discrimination that occurs in tech – a reason I chose to join WICC and come to Cornell (yay for almost 50% girls in engineering!). Fun fact: At least thirty people have asked me if I’m a CS major and gasp when I say I’m not</p>
             </div>
           </div>
@@ -201,7 +201,7 @@
             </div>
             <div class="col-sm-8 info">
               <h3>Mentorship Co-Director</h3>
-              <p>My frist experience with computer science was when I was a sophomore in high school. At the time, my friends and I decided to learn Python by ourselves because we wanted to start a company together. As you can see by my lack of fame and fortune, we never actually started a company. However, the venture was not a total failure because we all found a love for computer science. When I applied to Cornell, I knew I wanted to be a CS major and I haven't regretted my decision since. After coming to Cornell, I was thankful to find such a great and supportive community in WICC. The WICC community is composed of some truly inspiring people and I am proud to be a part of it. Fun fact: My friends and I named our hypothetical company, The Company. I know, we were clever.</p>
+              <p>My first experience with computer science was when I was a sophomore in high school. At the time, my friends and I decided to learn Python by ourselves because we wanted to start a company together. As you can see by my lack of fame and fortune, we never actually started a company. However, the venture was not a total failure because we all found a love for computer science. When I applied to Cornell, I knew I wanted to be a CS major and I haven't regretted my decision since. After coming to Cornell, I was thankful to find such a great and supportive community in WICC. The WICC community is composed of some truly inspiring people and I am proud to be a part of it. Fun fact: My friends and I named our hypothetical company, The Company. I know, we were clever.</p>
             </div>
           </div>
 

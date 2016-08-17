@@ -21,13 +21,7 @@
   </head>
   <body>
     <?php include "includes/nav.html" ?>
-    
-      <div class="g">
-        <div class="container medium wrap">
-          <h2>History</h2>
-          <p class="rfont">WICC was founded in March 2013 to bring together women in computing fields at Cornell, expand their opportunities and successes, provide a support network of women, and empower them to encourage younger women to consider computing fields. We hope to create a budding community for women and promote interaction on academic, social, and professional issues. By making women in computing fields visible, providing role models and dispelling stereotypes, WICC fosters a support network to empower women and encourage young girls to discover their love for computing.</p>
-        </div>
-      </div>
+
 
       <div class="container">
         <div class="narrow">
