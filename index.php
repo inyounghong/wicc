@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta property="og:image" content="http://wicc.acm.org/img/slide1.jpg" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Women in Computing at Cornell</title>
