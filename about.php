@@ -159,7 +159,7 @@
           <div class="profile row">
             <div class="col-sm-4 c">
               <div class="square_image s2">
-                <img src="img/board/JericaHuang.jpeg">
+                <img src="img/board/JericaHuang.jpg">
               </div>
               <div class="name">Jerica Huang</div>
               <div class="class">ISST + Computing in the Arts '18</div>
